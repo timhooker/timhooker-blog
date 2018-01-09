@@ -1,17 +1,18 @@
 import * as React from 'react';
-import './Post.css';
+import './post.css';
 import { Post } from '../../models/post';
 import { parseDate } from '../../helpers/date';
-import * as showdown from 'showdown';
+import * as ReactMarkdown from 'react-markdown';
+
 // import { Link } from 'react-router-dom';
 
-function PostView({title, html, id, published_date}: Post) {
-  const date = parseDate(published_date);
+function PostView({title, markdown, id, published_at}: Post) {
+  const date = parseDate(published_at);
   return (
     <section className="Post ">
       <h1 className="Post__title">{title}</h1>
       <h4 className="Post__date">{date}</h4>
-      <p className="Post__content">{html}</p>
+      <ReactMarkdown className="Post__content" source={markdown} />
     </section>
   );
 }

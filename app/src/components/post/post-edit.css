@@ -1,0 +1,47 @@
+.Post-edit {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 64px; 
+  text-align: left;
+}
+.Post-edit__header {
+  flex-basis: 100%;
+  width: 100%;
+  margin: 0 32px;
+  padding: 16px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+.Post-edit__header-submit {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+.Post-edit__form,
+.Post-edit__preview {
+  padding: 32px;
+  flex-basis: 50%;
+  max-width: 50%;
+  text-align: left;
+}
+.Post-edit__form {
+  font-size: 24px;
+}
+.Post-edit__content {
+  position: relative;
+}
+.Post-edit__text-area {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  border-color: #ccc;
+}
+
+.Post-edit__shadow-content {
+  color: transparent;
+}

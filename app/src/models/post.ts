@@ -1,9 +1,10 @@
 interface Post {
   title: string;
   html: string;
-  markdown?: string;
+  markdown: string;
   id?: number;
-  published_date?: string;
+  published_at?: string;
+  status: 'draft' | 'published';
   tags: Array<string>;
 }
 interface Posts {

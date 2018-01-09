@@ -5,16 +5,18 @@ namespace :ghost_migration do
     db_export = File.read('./db/export/tim-hooker-developer.ghost.2018-01-08.json')
     db = JSON.parse(db_export)
     posts = db['db'].first['data']['posts']
-    posts.each do |post|
-      post = {
-        title: post['title'],
-        html: post['html'],
-        published_at: post['published_at'],
-        markdown: post['markdown'],
-        status: post['status'],
-        slug: post['slug']
-      }
-      Post.new(post).save! #unless Post.where(:title, post['title'])
+    post_list = posts.map do |post|
+      new_post = {}
+      %w[id title markdown status].each do |key|
+        new_post[key] = post[key]
+      end
+      if post['published_at']
+        new_post[:published_at] = DateTime.strptime("#{post['published_at']}", '%Q')
+      end
+      Post.create(new_post)
     end
+    puts "Saved #{post_list.length} posts"
+  end
+  task import_post_tags: :environment do
   end
 end

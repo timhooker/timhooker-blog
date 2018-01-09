@@ -13,14 +13,10 @@ module Api::V1
 
     def sanitize_collection(posts)
       posts.map do |post|
-        {
-          id: post.id,
-          title: post.title,
-          markdown: post.markdown,
-          html: post.html,
-          published_date: post.published_at,
-          tags: post.tags.map(&:name)
-        }
+        %w[id title markdown status published_at tags].reduce({}) do |post_item, key|
+          post_item[key] = post[key]
+          post_item
+        end
       end
     end
   end

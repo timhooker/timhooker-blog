@@ -5,6 +5,7 @@ import * as React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 // Components
 import { Nav } from './components/nav';
+import { PostEdit } from './components/post/edit';
 import { PostView } from './components/post/show';
 import { Home } from './pages/home';
 import { getPosts } from './api/posts';
@@ -13,6 +14,7 @@ import './App.css';
 
 class App extends React.Component<any, any> {
   private postRef: HTMLDivElement | null;
+  private headerRef: HTMLDivElement | null;
 
   constructor(props: {}) {
     super(props);
@@ -29,7 +31,11 @@ class App extends React.Component<any, any> {
 
   scrollToPosts() {
     if (this.postRef) {
-      this.postRef.scrollIntoView({behavior: 'smooth'});
+      this.postRef.scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start',
+        inline: 'end'
+      });
     }
   }
 
@@ -45,27 +51,47 @@ class App extends React.Component<any, any> {
               exact={true}
               path="/"
               render={() => (
-                <div>
-                  <Home 
-                    scrollDown={() => this.scrollToPosts()}
-                    posts={this.state.posts}
-                    postsRef={(div: any) => this.postRef = div} 
-                  />
-                </div>
+                <Home 
+                  scrollDown={() => this.scrollToPosts()}
+                  posts={this.state.posts}
+                  headerRef={(div: any) => this.headerRef = div} 
+                  postsRef={(div: any) => this.postRef = div} 
+                />
               )}
             />
             <Route 
+              exact={true}
               path="/posts/:postId" 
               render={({match}) => {
                 const post: Post = posts.find((p: Post) => p.id && p.id.toString() === match.params.postId);
-                // console.log(match.params.postId, post);
                 return post ? (
                   <PostView 
                     title={post.title} 
                     html={post.html} 
+                    markdown={post.markdown}
+                    status={post.status} 
                     id={post.id}
                     tags={post.tags}
-                    published_date={post.published_date}
+                    published_at={post.published_at}
+                  />
+                  ) :  null;
+              }} 
+            />
+            <Route 
+              path="/posts/:postId/edit" 
+              render={({match}) => {
+                const post: Post = posts.find((p: Post) => p.id && p.id.toString() === match.params.postId);
+                return post ? (
+                  <PostEdit 
+                    title={post.title} 
+                    html={post.html} 
+                    markdown={post.markdown}
+                    status={post.status} 
+                    id={post.id}
+                    tags={post.tags}
+                    published_at={post.published_at}
+                    onChange={''}
+                    onSubmit={''}
                   />
                   ) :  null;
               }} 

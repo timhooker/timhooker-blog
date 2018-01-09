@@ -4,12 +4,13 @@ import { PostList } from '../../components/post';
 
 const backdrop = require('./backdrop.jpg');
 
-function Home({posts, scrollDown, postsRef}: any) {
+function Home({posts, scrollDown, postsRef, headerRef}: any) {
   return (
     <div>
       <header 
         className="Blog-header" 
         style={{'backgroundImage': `url(${backdrop})`}}
+        ref={headerRef}
       >
         <h1 className="Blog-title">
           <Logo fill="#fff" className="Blog-logo" />
@@ -21,7 +22,8 @@ function Home({posts, scrollDown, postsRef}: any) {
         <button
           className="Blog-header__arrow-down" 
           onClick={scrollDown} 
-        >Scroll</button>
+        >Scroll
+        </button>
       </header>
       <PostList 
         posts={posts} 
