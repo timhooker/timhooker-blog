@@ -1,0 +1,59 @@
+.Post {
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  padding-top: 2em;
+  padding-bottom: 4rem;
+  border-bottom: #EBF2F6 1px solid;
+  word-wrap: break-word;
+  text-align: left;
+  color: #3A4145;
+  animation: fadeIn .5s ease-in;
+}
+.Post__title {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+.Post__content {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.Post-list__item-date,
+.Post__date {
+  text-transform: uppercase;
+  opacity: .7;
+  margin-top: 2px;
+  font-weight: 300;
+  font-size: 12px;
+}
+.Post-list__item {
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  padding-bottom: 4rem;
+  border-bottom: #EBF2F6 1px solid;
+  word-wrap: break-word;
+  text-align: left;
+}
+.Post-list__item-title a,
+.Post-list__item-title {
+  font-size: 2.6rem;
+  color: #4A4A4A;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Post-list__item-link {
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

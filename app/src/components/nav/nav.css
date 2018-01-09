@@ -1,0 +1,23 @@
+.blog-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  z-index: 1;
+  list-style: none;
+  text-align: left;
+  padding: 16px;
+}
+
+.blog-nav__item-link {
+  color: #fff;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.blog-nav__logo {
+  height: 40px;
+  display: inline-block;
+}

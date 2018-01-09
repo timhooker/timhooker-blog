@@ -1,0 +1,1289 @@
+{
+  "db": [
+    {
+      "meta": {
+        "exported_on": 1515449607760,
+        "version": "004"
+      },
+      "data": {
+        "posts": [
+          {
+            "id": 1,
+            "uuid": "30983359-7198-4157-b26c-d82780d6c446",
+            "title": "Welcome to Ghost",
+            "slug": "welcome-to-ghost",
+            "markdown": "You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at `<your blog URL>/ghost/`. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!\n\n## Getting Started\n\nGhost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!\n\nWriting in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use *shortcuts* to **style** your content. For example, a list:\n\n* Item number one\n* Item number two\n    * A nested item\n* A final item\n\nor with numbers!\n\n1. Remember to buy some milk\n2. Drink the milk\n3. Tweet that I remembered to buy the milk, and drank it\n\n### Links\n\nWant to link to a source? No problem. If you paste in a URL, like http://ghost.org - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to [the Ghost website](http://ghost.org). Neat.\n\n### What about Images?\n\nImages work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:\n\n![The Ghost Logo](https://ghost.org/images/ghost.png)\n\nNot sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:\n\n![A bowl of bananas](http://)\n\n\n### Quoting\n\nSometimes a link isn't enough, you want to quote someone on what they've said. Perhaps you've started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!\n\n> Ghost - Just a blogging platform\n\n### Working with Code\n\nGot a streak of geek? We've got you covered there, too. You can write inline `<code>` blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.\n\n    .awesome-thing {\n        display: block;\n        width: 100%;\n    }\n\n### Ready for a Break? \n\nThrow 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.\n\n---\n\n### Advanced Usage\n\nThere's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.\n\n<input type=\"text\" placeholder=\"I'm an input field!\" />\n\nThat should be enough to get you started. Have fun - and let us know what you think :)",
+            "html": "<p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at <code>&lt;your blog URL&gt;/ghost/</code>. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!</p>\n\n<h2 id=\"gettingstarted\">Getting Started</h2>\n\n<p>Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!</p>\n\n<p>Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use <em>shortcuts</em> to <strong>style</strong> your content. For example, a list:</p>\n\n<ul>\n<li>Item number one</li>\n<li>Item number two\n<ul><li>A nested item</li></ul></li>\n<li>A final item</li>\n</ul>\n\n<p>or with numbers!</p>\n\n<ol>\n<li>Remember to buy some milk  </li>\n<li>Drink the milk  </li>\n<li>Tweet that I remembered to buy the milk, and drank it</li>\n</ol>\n\n<h3 id=\"links\">Links</h3>\n\n<p>Want to link to a source? No problem. If you paste in a URL, like <a href=\"http://ghost.org\">http://ghost.org</a> - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to <a href=\"http://ghost.org\">the Ghost website</a>. Neat.</p>\n\n<h3 id=\"whataboutimages\">What about Images?</h3>\n\n<p>Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:</p>\n\n<p><img src=\"https://ghost.org/images/ghost.png\" alt=\"The Ghost Logo\" /></p>\n\n<p>Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:</p>\n\n<p><img src=\"http://\" alt=\"A bowl of bananas\" /></p>\n\n<h3 id=\"quoting\">Quoting</h3>\n\n<p>Sometimes a link isn't enough, you want to quote someone on what they've said. Perhaps you've started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!</p>\n\n<blockquote>\n  <p>Ghost - Just a blogging platform</p>\n</blockquote>\n\n<h3 id=\"workingwithcode\">Working with Code</h3>\n\n<p>Got a streak of geek? We've got you covered there, too. You can write inline <code>&lt;code&gt;</code> blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.</p>\n\n<pre><code>.awesome-thing {\n    display: block;\n    width: 100%;\n}\n</code></pre>\n\n<h3 id=\"readyforabreak\">Ready for a Break?</h3>\n\n<p>Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.</p>\n\n<hr />\n\n<h3 id=\"advancedusage\">Advanced Usage</h3>\n\n<p>There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.</p>\n\n<p><input type=\"text\" placeholder=\"I'm an input field!\" /></p>\n\n<p>That should be enough to get you started. Have fun - and let us know what you think :)</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1451664727066,
+            "created_by": 1,
+            "updated_at": 1510323460297,
+            "updated_by": 1,
+            "published_at": 1451664727165,
+            "published_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "8b1c5bd7-b45e-4999-ae27-9d450a76c501",
+            "title": "About Me",
+            "slug": "about-me",
+            "markdown": "I'm a front end developer out of Greensboro, NC. I'm passionate about great websites. *You should know that I haven't always been a code nerd.* In fact, during my 20's I was a musician. I even worked as a staffed worship pastor for 6 years. It all goes to show how much life can change.\n\nAbout 2 years ago I decided it was time for a life change. I spent countless hours on [TeamTreeHouse.com](http://teamtreehouse.com). After a short stint freelancing and building a local music shop's website I attended a [The Iron Yard](http://theironyard.com) for Front End Engineering in January 2015. \n\nCode school is super hard but you know, that's what everyone says. I say, if you're passionate about what you're doing, work doesn't feel like work. I loved it and would recommend the experience 100%.\n\nI work for Trone Brand Energy as a Front End Developer now. Feel free to get in touch with me via [twitter](http://twitter.com/timmyhooker), [github](http://github.com/timhooker), or [Linkedin](http://linkedin.com/timahooker).",
+            "html": "<p>I'm a front end developer out of Greensboro, NC. I'm passionate about great websites. <em>You should know that I haven't always been a code nerd.</em> In fact, during my 20's I was a musician. I even worked as a staffed worship pastor for 6 years. It all goes to show how much life can change.</p>\n\n<p>About 2 years ago I decided it was time for a life change. I spent countless hours on <a href=\"http://teamtreehouse.com\">TeamTreeHouse.com</a>. After a short stint freelancing and building a local music shop's website I attended a <a href=\"http://theironyard.com\">The Iron Yard</a> for Front End Engineering in January 2015. </p>\n\n<p>Code school is super hard but you know, that's what everyone says. I say, if you're passionate about what you're doing, work doesn't feel like work. I loved it and would recommend the experience 100%.</p>\n\n<p>I work for Trone Brand Energy as a Front End Developer now. Feel free to get in touch with me via <a href=\"http://twitter.com/timmyhooker\">twitter</a>, <a href=\"http://github.com/timhooker\">github</a>, or <a href=\"http://linkedin.com/timahooker\">Linkedin</a>.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 1,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1451870982077,
+            "created_by": 1,
+            "updated_at": 1451871853641,
+            "updated_by": 1,
+            "published_at": 1451871500297,
+            "published_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "3bbde23f-112f-4d52-b848-c915056efe68",
+            "title": "Yeah, I know",
+            "slug": "beginnings",
+            "markdown": "Everyone blogs. \n\nWell I've learned that a song can be special even if you've heard it before. More often you seem the really learn things the third time you read them. So it's probably ok not to be original.\n\nMy mission is just to talk about whatever I'm working on, think is important, or generally think is cool.\n\nAt [The Iron Yard](http://theironyard.com), they gave us many speeches and the one I heard the most was about the need to start a blog and talk. It only took a year. Kudos to me.\n\nIn the next few posts I plan to talk about my adventures starting a inter-office grassroots training, the challenges of being the sole front-end dev at an agency, and what it takes to get through code school. Stay tuned.",
+            "html": "<p>Everyone blogs. </p>\n\n<p>Well I've learned that a song can be special even if you've heard it before. More often you seem the really learn things the third time you read them. So it's probably ok not to be original.</p>\n\n<p>My mission is just to talk about whatever I'm working on, think is important, or generally think is cool.</p>\n\n<p>At <a href=\"http://theironyard.com\">The Iron Yard</a>, they gave us many speeches and the one I heard the most was about the need to start a blog and talk. It only took a year. Kudos to me.</p>\n\n<p>In the next few posts I plan to talk about my adventures starting a inter-office grassroots training, the challenges of being the sole front-end dev at an agency, and what it takes to get through code school. Stay tuned.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1451875048115,
+            "created_by": 1,
+            "updated_at": 1452360063422,
+            "updated_by": 1,
+            "published_at": 1451879459466,
+            "published_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "a2f1609d-9ead-4b20-9c9e-26f96cfb667b",
+            "title": "Crowd-Sourced Team Trainings",
+            "slug": "crowd-sourced-team-trainings",
+            "markdown": "## I spent a bunch of time in Durham\n\nI did. It was great. I went to an awesome [code school](http://theironyard.com) and was surrounded by smarter, more experienced folks every day. It was totally inspiring. I also attended regular meetups on JavaScript.\n\nThe meetups in Durham are everywhere. There is something to do almost every week and the content will make your brain spin. If you want to learn about Go, there's a meetup for that. If you're a girl who likes to code, there's a meetup for that. From the nerdiest of the nerd to the earliest beginner (I mean like 8 years old) there's a place you can learn.\n####I have so much to learn\n\nWhere I live simply doesn't have the same kind of community. Although I'm not young, in developer years, I'm pretty young. In this stage of my career it's really important to work twice as hard learning and being exposed to as much as I can.\n\nAs many people do, I signed up for a couple newsletters. I read some books. I also kept my online subscriptions to sites like [Team Tree House](http://www.teamtreehouse.com) and attended the one meetup I could quarterly. Something was still missing.\n####As green as I am, I realized I did have something to offer. \n\nI began bothering my fellow developers for help on things I wanted to learn. I also began offering to teach what I knew. For one thing, my comfort with JavaScript and Node specifically means that I am comfortable writing Gulp builds. So I offered help to help the team by writing a gulp build.\n\nThen one day in an email chain someone brought up the idea of doing a one off training on node and gulp. The idea grew quickly and others had things they wanted to offer. Ops got excited. Developers got excited. I got excited and with permission I threw a bunch of dates on the calendar.\n\n####At some point, management will likely see this is free training and will endorse it.\n\nIt's true. This has been the best idea. To name a few things: I've learned about website optimization, NGNIX, UX concerns, and we've just begun. \n\nThe best part has been that I now see my company as a place where we can learn together. If this sounds like something you need, I encourage you to start talking about it. Keep talking about it. You could give yourself and your company an enormous gift.",
+            "html": "<h2 id=\"ispentabunchoftimeindurham\">I spent a bunch of time in Durham</h2>\n\n<p>I did. It was great. I went to an awesome <a href=\"http://theironyard.com\">code school</a> and was surrounded by smarter, more experienced folks every day. It was totally inspiring. I also attended regular meetups on JavaScript.</p>\n\n<p>The meetups in Durham are everywhere. There is something to do almost every week and the content will make your brain spin. If you want to learn about Go, there's a meetup for that. If you're a girl who likes to code, there's a meetup for that. From the nerdiest of the nerd to the earliest beginner (I mean like 8 years old) there's a place you can learn.  </p>\n\n<h4 id=\"ihavesomuchtolearn\">I have so much to learn</h4>\n\n<p>Where I live simply doesn't have the same kind of community. Although I'm not young, in developer years, I'm pretty young. In this stage of my career it's really important to work twice as hard learning and being exposed to as much as I can.</p>\n\n<p>As many people do, I signed up for a couple newsletters. I read some books. I also kept my online subscriptions to sites like <a href=\"http://www.teamtreehouse.com\">Team Tree House</a> and attended the one meetup I could quarterly. Something was still missing.  </p>\n\n<h4 id=\"asgreenasiamirealizedididhavesomethingtooffer\">As green as I am, I realized I did have something to offer.</h4>\n\n<p>I began bothering my fellow developers for help on things I wanted to learn. I also began offering to teach what I knew. For one thing, my comfort with JavaScript and Node specifically means that I am comfortable writing Gulp builds. So I offered help to help the team by writing a gulp build.</p>\n\n<p>Then one day in an email chain someone brought up the idea of doing a one off training on node and gulp. The idea grew quickly and others had things they wanted to offer. Ops got excited. Developers got excited. I got excited and with permission I threw a bunch of dates on the calendar.</p>\n\n<h4 id=\"atsomepointmanagementwilllikelyseethisisfreetrainingandwillendorseit\">At some point, management will likely see this is free training and will endorse it.</h4>\n\n<p>It's true. This has been the best idea. To name a few things: I've learned about website optimization, NGNIX, UX concerns, and we've just begun. </p>\n\n<p>The best part has been that I now see my company as a place where we can learn together. If this sounds like something you need, I encourage you to start talking about it. Keep talking about it. You could give yourself and your company an enormous gift.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1452357259458,
+            "created_by": 1,
+            "updated_at": 1452371945562,
+            "updated_by": 1,
+            "published_at": 1452359033760,
+            "published_by": 1
+          },
+          {
+            "id": 5,
+            "uuid": "9c7ccbc2-b64b-4977-b1b3-556f8e886d35",
+            "title": "And then it (browsersync) hit me..",
+            "slug": "and-then-it-hit-me",
+            "markdown": "#Learning is cyclical\n... or at least that's how it seems. Someone explains something to you and you reflexively nod. You say \"Yeah, Sure.. That made no sense to me but I'll dig into that later\". I normally do dig in and I don't get it. The third time I try, I almost always get it... but not always.\n\n#I just couldn't figure it out\nI do a lot with gulp. I push concatenate, minify, optimize, hint... bla bla bla. It's a lot of fun. Anyways, I've been working on getting live reload working with my php/gulp builds. \n\nThe sticking point is PHP. I use [MAMP PRO](http://www.mamp.info) to pitch up my local environment. I just couldn't make it live reload. So I read quite a few articles on it. Some of them talking about modifying my system apache which makes me queasy. I tried articles using using gulp-connect-php(system php) and gulp-mamp.  I read and read but each time my code just blew up with unhelpful node errors.\n\n*The process of me and fixing this task has been a never-ending pain in the butt.*\n\n#And then it hit me\nAs I mentioned earlier we've been doing team trainings and our lead engineer spoke about caching through an NGINX proxy... A proxy. I kept reading about people pitching up a proxy with [browsersync](https://www.browsersync.io/) but until recently, I didn't really know what a proxy was.  \n\nA proxy is a server that sits in between the user and the production server. It takes the requests for images, js..  really anything that were supposed to go to your server first. All you can see is users getting your code but the request goes through this server first. It can then process what to do with the request before sending it on. \n\nIn my case, I need it to add some javascript, open up something like a socket, and refresh when the files change. BAM, live reload.\n\nI suddenly realized I didn't need to worry about my php at all. I already have a server. That's what MAMP is for. All I needed was a proxy. Enter [browsersync](https://www.browsersync.io/).\n\n#The Solution\nSo I went to browsersync's docs and just tried out their sass recipe.\n\n```\ngulp.task('browser-sync', function() {\n    browserSync.init({\n        proxy: \"mysite.local\" // And yeah, that's all\n    });\n});\n```\nEureka! I ran it, my default browser opened, and it said localhost:3000 but I could login as usual without database conflicts.\n\nI know, it's really that easy and after adding reloads to my sass, js tasks, and watching the home directory for changes in template files...  well it just worked.\n\nFor example, all I had to do was add `.pipe(browserSync.stream())` to my sass task. This is similar to what I did...\n```\ngulp.task('sass', function() {\n    return gulp.src(mydir + \"/scss/*.+(css|scss)\")\n        .pipe(sass())\n        .pipe(gulp.dest(mydir))\n        .pipe(browserSync.stream());\n});\n```\n#It's not impressive\nI know and that's fine with me. I'm learning and this made my day. ",
+            "html": "<h1 id=\"learningiscyclical\">Learning is cyclical</h1>\n\n<p>... or at least that's how it seems. Someone explains something to you and you reflexively nod. You say \"Yeah, Sure.. That made no sense to me but I'll dig into that later\". I normally do dig in and I don't get it. The third time I try, I almost always get it... but not always.</p>\n\n<h1 id=\"ijustcouldntfigureitout\">I just couldn't figure it out</h1>\n\n<p>I do a lot with gulp. I push concatenate, minify, optimize, hint... bla bla bla. It's a lot of fun. Anyways, I've been working on getting live reload working with my php/gulp builds. </p>\n\n<p>The sticking point is PHP. I use <a href=\"http://www.mamp.info\">MAMP PRO</a> to pitch up my local environment. I just couldn't make it live reload. So I read quite a few articles on it. Some of them talking about modifying my system apache which makes me queasy. I tried articles using using gulp-connect-php(system php) and gulp-mamp.  I read and read but each time my code just blew up with unhelpful node errors.</p>\n\n<p><em>The process of me and fixing this task has been a never-ending pain in the butt.</em></p>\n\n<h1 id=\"andthenithitme\">And then it hit me</h1>\n\n<p>As I mentioned earlier we've been doing team trainings and our lead engineer spoke about caching through an NGINX proxy... A proxy. I kept reading about people pitching up a proxy with <a href=\"https://www.browsersync.io/\">browsersync</a> but until recently, I didn't really know what a proxy was.  </p>\n\n<p>A proxy is a server that sits in between the user and the production server. It takes the requests for images, js..  really anything that were supposed to go to your server first. All you can see is users getting your code but the request goes through this server first. It can then process what to do with the request before sending it on. </p>\n\n<p>In my case, I need it to add some javascript, open up something like a socket, and refresh when the files change. BAM, live reload.</p>\n\n<p>I suddenly realized I didn't need to worry about my php at all. I already have a server. That's what MAMP is for. All I needed was a proxy. Enter <a href=\"https://www.browsersync.io/\">browsersync</a>.</p>\n\n<h1 id=\"thesolution\">The Solution</h1>\n\n<p>So I went to browsersync's docs and just tried out their sass recipe.</p>\n\n<pre><code>gulp.task('browser-sync', function() {  \n    browserSync.init({\n        proxy: \"mysite.local\" // And yeah, that's all\n    });\n});\n</code></pre>\n\n<p>Eureka! I ran it, my default browser opened, and it said localhost:3000 but I could login as usual without database conflicts.</p>\n\n<p>I know, it's really that easy and after adding reloads to my sass, js tasks, and watching the home directory for changes in template files...  well it just worked.</p>\n\n<p>For example, all I had to do was add <code>.pipe(browserSync.stream())</code> to my sass task. This is similar to what I did...  </p>\n\n<pre><code>gulp.task('sass', function() {  \n    return gulp.src(mydir + \"/scss/*.+(css|scss)\")\n        .pipe(sass())\n        .pipe(gulp.dest(mydir))\n        .pipe(browserSync.stream());\n});\n</code></pre>\n\n<h1 id=\"itsnotimpressive\">It's not impressive</h1>\n\n<p>I know and that's fine with me. I'm learning and this made my day. </p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1452733944864,
+            "created_by": 1,
+            "updated_at": 1452738113517,
+            "updated_by": 1,
+            "published_at": 1452737273807,
+            "published_by": 1
+          },
+          {
+            "id": 6,
+            "uuid": "e8aeb477-0fa3-46b3-91b3-c251b4acda5e",
+            "title": "Musicians (can) make great developers",
+            "slug": "musicians-make-great-developers",
+            "markdown": "##There are lots of us\n\nI used to play around quite a bit in a hip hop band. \n\n**DISCLAIMER**: I don't rap unless I'm trying to make people laugh. \n\nMoving on... I've seen the ins and outs of the bar music scene but I also have a BA in Music. So yeah, I have been an underemployed musician for many a year. What is unsurprising is that music doesn't pay the rent. Frankly, it just barely pays the Wendy's. What may be surprising is how many musicians code.\n\nThey seem to be everywhere. But why?\n\n###It's about patterns\nIn conversations I found that at least half of my musician colleagues hated math and highly preferred English. All us though are forced to deal in patterns. That's really all music theory boils down to many days. Can you find the pattern in the madness. \n\n>\"if you're a musician, you've been playing with, analyzing... loving patterns for as long as you can remember.\"\n\nPop music is full of patterns for the uninitiated masses. Jazz turns out to be full of patterns too. The deeper you get into theory you'll find yourself analyzing patterns across greater swaths of music; patterns so complex your ear can't hope to understand them. For some twisted reason, we really enjoy them.\n\nThat's why when I look into an api endpoint, database collection, or module pattern I find my brain perks up and enjoys the process. It's nothing new, if you're a musician, you've been playing, analyzing... loving patterns for as long as you can remember.\n\n###We are patient\nAn older bar musician once told me  you have to give a band 5-7 years before you know if it'll be successful. My heart sunk. I wanted to be U2. \n>\"your passion for your craft matters most\"\n\nSo, like any self respecting creative, I sulked, locked myself in my room, practiced, and wrote lots of music (mostly sad). At that moment I knew this would be a long road.\n\nIf you've been there you know that your success comes from you being gutsy and never giving up. You know that even if everyone thinks you're terrible, your passion for your craft matters most.\n\nAs a gigging musician, you find your enjoyment of what you're doing from within. When the crowds finally show up. When people finally take notice it's like a breath of fresh air. If you do it right though, **you don't need others to tell you what is a worthwhile project**.\n\n###Creativity matters!\nThis, is the glue that holds it all together. A musician knows no one is carving your path. You can play all the scales, watch every youtube video, you can take every class, and get every degree. You can follow the steps but ultimately, you have to go make your own. This is the moment the creative in you shines. \n\nAs a developer, out of the ether you will have to pull out a solution for your program. You've been here before just waiting for inspiration and so you know what to do. \n\nStare at the code until your eyes hurt.\nGoof off. \nExperiment.\nGet up, go get some Wendy's. \nGet inspired.\nSleep on it.\nAnd then it happens. \n\nSo when you need the solution for a program you're writing you'll find it. The solution your team needs you to find. What you needed was margin. In other words, you needed space to let your brain figure it out for you. Silliness, play, and just a bit of free time are the perfect recipe for understanding and fixing things.\n\n###Go Code.\nSo that said, you don't need to be a musician to relate. Any creative field has much in common. To harness all that goodness: harness your strengths, be patient, never give up, and create margin.\n\nHappy coding.\n",
+            "html": "<h2 id=\"therearelotsofus\">There are lots of us</h2>\n\n<p>I used to play around quite a bit in a hip hop band. </p>\n\n<p><strong>DISCLAIMER</strong>: I don't rap unless I'm trying to make people laugh. </p>\n\n<p>Moving on... I've seen the ins and outs of the bar music scene but I also have a BA in Music. So yeah, I have been an underemployed musician for many a year. What is unsurprising is that music doesn't pay the rent. Frankly, it just barely pays the Wendy's. What may be surprising is how many musicians code.</p>\n\n<p>They seem to be everywhere. But why?</p>\n\n<h3 id=\"itsaboutpatterns\">It's about patterns</h3>\n\n<p>In conversations I found that at least half of my musician colleagues hated math and highly preferred English. All us though are forced to deal in patterns. That's really all music theory boils down to many days. Can you find the pattern in the madness. </p>\n\n<blockquote>\n  <p>\"if you're a musician, you've been playing with, analyzing... loving patterns for as long as you can remember.\"</p>\n</blockquote>\n\n<p>Pop music is full of patterns for the uninitiated masses. Jazz turns out to be full of patterns too. The deeper you get into theory you'll find yourself analyzing patterns across greater swaths of music; patterns so complex your ear can't hope to understand them. For some twisted reason, we really enjoy them.</p>\n\n<p>That's why when I look into an api endpoint, database collection, or module pattern I find my brain perks up and enjoys the process. It's nothing new, if you're a musician, you've been playing, analyzing... loving patterns for as long as you can remember.</p>\n\n<h3 id=\"wearepatient\">We are patient</h3>\n\n<p>An older bar musician once told me  you have to give a band 5-7 years before you know if it'll be successful. My heart sunk. I wanted to be U2.  </p>\n\n<blockquote>\n  <p>\"your passion for your craft matters most\"</p>\n</blockquote>\n\n<p>So, like any self respecting creative, I sulked, locked myself in my room, practiced, and wrote lots of music (mostly sad). At that moment I knew this would be a long road.</p>\n\n<p>If you've been there you know that your success comes from you being gutsy and never giving up. You know that even if everyone thinks you're terrible, your passion for your craft matters most.</p>\n\n<p>As a gigging musician, you find your enjoyment of what you're doing from within. When the crowds finally show up. When people finally take notice it's like a breath of fresh air. If you do it right though, <strong>you don't need others to tell you what is a worthwhile project</strong>.</p>\n\n<h3 id=\"creativitymatters\">Creativity matters!</h3>\n\n<p>This, is the glue that holds it all together. A musician knows no one is carving your path. You can play all the scales, watch every youtube video, you can take every class, and get every degree. You can follow the steps but ultimately, you have to go make your own. This is the moment the creative in you shines. </p>\n\n<p>As a developer, out of the ether you will have to pull out a solution for your program. You've been here before just waiting for inspiration and so you know what to do. </p>\n\n<p>Stare at the code until your eyes hurt. <br />\nGoof off. <br />\nExperiment. <br />\nGet up, go get some Wendy's. <br />\nGet inspired. <br />\nSleep on it. <br />\nAnd then it happens. </p>\n\n<p>So when you need the solution for a program you're writing you'll find it. The solution your team needs you to find. What you needed was margin. In other words, you needed space to let your brain figure it out for you. Silliness, play, and just a bit of free time are the perfect recipe for understanding and fixing things.</p>\n\n<h3 id=\"gocode\">Go Code.</h3>\n\n<p>So that said, you don't need to be a musician to relate. Any creative field has much in common. To harness all that goodness: harness your strengths, be patient, never give up, and create margin.</p>\n\n<p>Happy coding.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1454172220529,
+            "created_by": 1,
+            "updated_at": 1454338656535,
+            "updated_by": 1,
+            "published_at": 1454174243495,
+            "published_by": 1
+          },
+          {
+            "id": 7,
+            "uuid": "12a17342-1a4d-421a-869a-a49d74ecd49b",
+            "title": "How I survived code school",
+            "slug": "how-i-survived-code-school",
+            "markdown": "As the appearance of code schools ramp up in the US, even as my own alma mater opens new campus locations, people will want to know 'how to survive code school'.  The premise that anyone can tell you how to survive code school is a myth and is built on a host of presumption.\n\nThis post is merely a retelling of the things that helped me. If you're thinking about taking on the challenge, I hope this helps you.\n\n##Stop saying it's so hard.\nEveryone *always* says: \n\n\"It was so hard\" \n\n\"Code school was the hardest thing I ever did.\" \n\n\"I couldn't believe how hard it was\"\n\n\"I thought I was going to die\"\n\nThere's something about how you speak about your situation that changes your situation. Code school was one of the biggest adventures of my life and I'll never get that time back again. I will be telling my grandkids about this. The first thing I want people to know about code school is that it's really fun. \n\n*It was a gift*. If you go to code school, you chose this because you love to code right? So, if your primary experience is how hard it is, you've missed the point.\n\nThere were times when I had been writing code for 9 hours straight and wasn't nearly done. I would need to step back and take a deep breath. I could be doing anything but I really, really, like coding. I love fixing problems. I love coming up with creative solutions. I love beautiful UI. I believe applications can help change the world for the better.\n\nI know I'm repeating myself but when you hit a wall, the last thing you want to tell yourself is \"This is so hard\". You should say, \"This is really fun\".\n\n>The first thing I want people to know about code school is that it's really fun.\n\n##A burning desire\n\nAbout me..  I was in a place where my family needed me to find work. My old career just wasn't going to work for us any more. I guess that's another conversation for another day but let's leave it at this. Working in the church isn't a job you do alone. Your family, in a sense, is on the payroll too. Whatever you do, they do.\n\nOh, and if you think wages in the US have stagnated, try working in a small non-profit like a church... I digress.\n\nI remember looking at our finances with a realization that I couldn't sit around and do nothing. I looked at my strengths and weaknesses. I'm creative, a tech nerd, love graphic design, and enjoy fixing broken things. Becoming a front end developer seemed like a great idea.\n\nEvery day I would ferret away time into a hole learning html, css, design principles, and the fundamentals of programming. I studied on my own for months using online websites.\n\nBut why? Why did I do it? My family needed me. Every day I would get up and picture my family and what it would mean for me to be successful. It drove me.\n\nThe experience taught me something. No one was going to give me a career. Which brings me to my next point:\n\n##No one can give you a career\n\nSome of your classmates won't study until the day class begins. They will wait to study. They will wait to look for a job. They will be in a world of hurt.\n>Job guarantees are a myth\n\nSome code schools have job guarantees. When I enrolled at The Iron Yard they had just scrapped their job guarantee. That was totally fine by me. **Job guarantees are a myth**. I mean it. You don't always get what you earned. Sometimes you get what you didn't earn. Nothing in your life will ever truly be guaranteed.\n\nHere's the truth of the situation. I was going to be a developer. You might imagine I was ever so pleased someone would make the process more doable. If I had to slug through a formal degree I would. However, code school meant that I didn't have to.\n\nWhen I enrolled in code school I basically hired a very expensive tutor. I also was given a strong advocate in getting a job. Still, I paid them. \n\nAt some point you may say 'I'm doing this thing my teacher made me do'. Wrong! You wanted to go to code school. You are doing what you wanted. There's no degree at the end of the rainbow, only skills learned.\n\n// Disclaimer: I did everything I was asked to do and so should you.\n\nI was the one who was working, my family was footing the bill, and I was the one picking up the pieces if it failed. No one gave me this career.\n\n##I couldn't actually do it.\nThere is a sense in which you are paying into a bucket that may not pay out. You have no clue what the end result will be.\n\nFor example: My car broke down in the worst sort of way in the middle of the cohort. I was driving an hour both ways to get to school and my car died. The bill to fix my car was nearly $4,000. That could have been the end of my schooling.\n\nWhat I should have titled this section was, *\"I couldn't actually do it alone\"*. First and foremost I prayed a lot. If you don't believe in God you may not relate. In my eyes, every dollar in my bank account came from God's provision out of His love for me. He never left me, never forgot about me... He never will.\n\nI also couldn't have done it without my family. They financially helped out *a lot*. I had to pay for not just school but also the bills all the way through. I would have maxed out all my credit and still not made it if not for them. \n\nOn top of that my parents offered me a place to crash when I was too tired to drive home, warm meals, tea before bed, and never gave me a hard time when I ignored them so I could work.\n\n##My wife was in code school\nHere's a little nugget for you if you're married. Whatever you do, whatever you pay for, your spouse does and pays for too. We had a frank talk about me being completely M.I.A. for 12 weeks before I signed the contract to go to school. \n\nI did my best to pitch in when I was home to give my family any support I could. My work was never done but my wife worked just as hard as I did and maybe harder.\n\nShe took my daughter to school. She made dinner. She cleaned the house. She organized. She scheduled. Oh and here's the kicker.. **SHE STILL WENT TO WORK FULL TIME**. My wife is an amazing person. Make no mistakes.\n\nMy wife and my family made all the difference.\n\n##Embrace the uncertainty\nSo all of this can be un-nerving but guess what? It was actually a lot of fun. Seriously, there are so few times in your life that you're released to just shoot for the moon. I was dreaming the impossible dream and so will you. When you're done you'll barely be employable and yet... you're going for it. Have fun. Be your best! Never give up.\n",
+            "html": "<p>As the appearance of code schools ramp up in the US, even as my own alma mater opens new campus locations, people will want to know 'how to survive code school'.  The premise that anyone can tell you how to survive code school is a myth and is built on a host of presumption.</p>\n\n<p>This post is merely a retelling of the things that helped me. If you're thinking about taking on the challenge, I hope this helps you.</p>\n\n<h2 id=\"stopsayingitssohard\">Stop saying it's so hard.</h2>\n\n<p>Everyone <em>always</em> says: </p>\n\n<p>\"It was so hard\" </p>\n\n<p>\"Code school was the hardest thing I ever did.\" </p>\n\n<p>\"I couldn't believe how hard it was\"</p>\n\n<p>\"I thought I was going to die\"</p>\n\n<p>There's something about how you speak about your situation that changes your situation. Code school was one of the biggest adventures of my life and I'll never get that time back again. I will be telling my grandkids about this. The first thing I want people to know about code school is that it's really fun. </p>\n\n<p><em>It was a gift</em>. If you go to code school, you chose this because you love to code right? So, if your primary experience is how hard it is, you've missed the point.</p>\n\n<p>There were times when I had been writing code for 9 hours straight and wasn't nearly done. I would need to step back and take a deep breath. I could be doing anything but I really, really, like coding. I love fixing problems. I love coming up with creative solutions. I love beautiful UI. I believe applications can help change the world for the better.</p>\n\n<p>I know I'm repeating myself but when you hit a wall, the last thing you want to tell yourself is \"This is so hard\". You should say, \"This is really fun\".</p>\n\n<blockquote>\n  <p>The first thing I want people to know about code school is that it's really fun.</p>\n</blockquote>\n\n<h2 id=\"aburningdesire\">A burning desire</h2>\n\n<p>About me..  I was in a place where my family needed me to find work. My old career just wasn't going to work for us any more. I guess that's another conversation for another day but let's leave it at this. Working in the church isn't a job you do alone. Your family, in a sense, is on the payroll too. Whatever you do, they do.</p>\n\n<p>Oh, and if you think wages in the US have stagnated, try working in a small non-profit like a church... I digress.</p>\n\n<p>I remember looking at our finances with a realization that I couldn't sit around and do nothing. I looked at my strengths and weaknesses. I'm creative, a tech nerd, love graphic design, and enjoy fixing broken things. Becoming a front end developer seemed like a great idea.</p>\n\n<p>Every day I would ferret away time into a hole learning html, css, design principles, and the fundamentals of programming. I studied on my own for months using online websites.</p>\n\n<p>But why? Why did I do it? My family needed me. Every day I would get up and picture my family and what it would mean for me to be successful. It drove me.</p>\n\n<p>The experience taught me something. No one was going to give me a career. Which brings me to my next point:</p>\n\n<h2 id=\"noonecangiveyouacareer\">No one can give you a career</h2>\n\n<p>Some of your classmates won't study until the day class begins. They will wait to study. They will wait to look for a job. They will be in a world of hurt.  </p>\n\n<blockquote>\n  <p>Job guarantees are a myth</p>\n</blockquote>\n\n<p>Some code schools have job guarantees. When I enrolled at The Iron Yard they had just scrapped their job guarantee. That was totally fine by me. <strong>Job guarantees are a myth</strong>. I mean it. You don't always get what you earned. Sometimes you get what you didn't earn. Nothing in your life will ever truly be guaranteed.</p>\n\n<p>Here's the truth of the situation. I was going to be a developer. You might imagine I was ever so pleased someone would make the process more doable. If I had to slug through a formal degree I would. However, code school meant that I didn't have to.</p>\n\n<p>When I enrolled in code school I basically hired a very expensive tutor. I also was given a strong advocate in getting a job. Still, I paid them. </p>\n\n<p>At some point you may say 'I'm doing this thing my teacher made me do'. Wrong! You wanted to go to code school. You are doing what you wanted. There's no degree at the end of the rainbow, only skills learned.</p>\n\n<p>// Disclaimer: I did everything I was asked to do and so should you.</p>\n\n<p>I was the one who was working, my family was footing the bill, and I was the one picking up the pieces if it failed. No one gave me this career.</p>\n\n<h2 id=\"icouldntactuallydoit\">I couldn't actually do it.</h2>\n\n<p>There is a sense in which you are paying into a bucket that may not pay out. You have no clue what the end result will be.</p>\n\n<p>For example: My car broke down in the worst sort of way in the middle of the cohort. I was driving an hour both ways to get to school and my car died. The bill to fix my car was nearly $4,000. That could have been the end of my schooling.</p>\n\n<p>What I should have titled this section was, <em>\"I couldn't actually do it alone\"</em>. First and foremost I prayed a lot. If you don't believe in God you may not relate. In my eyes, every dollar in my bank account came from God's provision out of His love for me. He never left me, never forgot about me... He never will.</p>\n\n<p>I also couldn't have done it without my family. They financially helped out <em>a lot</em>. I had to pay for not just school but also the bills all the way through. I would have maxed out all my credit and still not made it if not for them. </p>\n\n<p>On top of that my parents offered me a place to crash when I was too tired to drive home, warm meals, tea before bed, and never gave me a hard time when I ignored them so I could work.</p>\n\n<h2 id=\"mywifewasincodeschool\">My wife was in code school</h2>\n\n<p>Here's a little nugget for you if you're married. Whatever you do, whatever you pay for, your spouse does and pays for too. We had a frank talk about me being completely M.I.A. for 12 weeks before I signed the contract to go to school. </p>\n\n<p>I did my best to pitch in when I was home to give my family any support I could. My work was never done but my wife worked just as hard as I did and maybe harder.</p>\n\n<p>She took my daughter to school. She made dinner. She cleaned the house. She organized. She scheduled. Oh and here's the kicker.. <strong>SHE STILL WENT TO WORK FULL TIME</strong>. My wife is an amazing person. Make no mistakes.</p>\n\n<p>My wife and my family made all the difference.</p>\n\n<h2 id=\"embracetheuncertainty\">Embrace the uncertainty</h2>\n\n<p>So all of this can be un-nerving but guess what? It was actually a lot of fun. Seriously, there are so few times in your life that you're released to just shoot for the moon. I was dreaming the impossible dream and so will you. When you're done you'll barely be employable and yet... you're going for it. Have fun. Be your best! Never give up.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1454776514760,
+            "created_by": 1,
+            "updated_at": 1455384306977,
+            "updated_by": 1,
+            "published_at": 1455382381189,
+            "published_by": 1
+          },
+          {
+            "id": 8,
+            "uuid": "56065b3b-3b75-4096-8648-b4bd577bd5e4",
+            "title": "Bootstrapping the world",
+            "slug": "bootstrapping-the-world",
+            "markdown": "#We have a problem\nThis post is a rant. I think we have a problem. This post is aimed at the time-strapped developer who is pushing through, trying to support a family. It's hard and you do what you have to for survival.\n\n###Abstractions\nAs a rule, abstractions are great. I really love them and use them in my own work whenever possible. I'll paraphrase here but an abstraction is when you take a bit of code and give it a name that makes sense. It's like going to the store. In order to the store, you go outside, open the car door, get in the car, drive to the store ... etc. So there are a number of steps and depending on how you decide to organize it you might just abstract all of those steps into on big step. You'll just say go to the store...\n```\nfunction goToStore() {\n  ... things we to go to the store.\n};\n```\n\nThis pattern can be really helpful  when giving a new developer a 30,000 ft. view of your code. It is also really helpful when someone wants to extend the functionality of your application.\n\nWe love abstractions.\n\n###Abstractions gone wrong\nHere is how an abstraction becomes and obstruction: What happens when you have learned the abstraction but only the abstraction? What happens when the abstraction is so full of its own conventions and challenges that you are only learning how to work the abstraction? \n\nFor example: You can conceivably learn how to create a lot of interesting functionality in WordPress but not actually have a clue how to set up an API, do a SQL call, or really program at all. I'm saying you could have been creating websites for years and have no real clue how to actually make a website outside of your CMS.\n\nIn fact, it's pretty amazing how much you can do without knowing what you're doing at all. You just take the code and hack at it until it does what you want.\n\n###Tyranny of the Urgent\nSo we now, I hope, see the problem. For survival in the industry you are forced to puke out websites quickly. It looks good... mostly. People pat you on the back. It seems like success. You know there are bugs but you leave the ugliest issues in your codebase to be fixed by someone else and move on.\n\nHowever, you leave a wake of hacked and barely maintainable websites behind. As soon as your particular flavor of development is no longer in vogue, you have to start from scratch or just quit.\n\nStephen Covey in his book \"The Seven Habits of Highly Effective People\" talks about something he calls the tyranny of the urgent. The idea is that we tend to put out fires rather than invest in what will make tomorrow best. Each time we ignore tomorrow's concerns, we guarantee that we will be franticly running around fixing problems as they happen.\n\n###It just isn't as good\nSo here's the other underlying problem of huge swaths of pre-packaged functionality. They are all made so you can do whatever you want. You have fifty options so that you can do one thing. You however are doing only one thing and are now wasting 49 solutions.\n\nHave you ever looked at the head tag of a WordPress site and wondered what all that crap was for? I mean seriously, it's essentially a static page with barely anything going on but you have 15 .js files and 10 css files loaded. Why not 2 or 3 (or maybe one) of each?\n\nHow about the gajillion lines of js that comes with bootstrap? Are you actually using all that code?\n\nWhat's with all of this HTML on your page? Do you have divs in divs in divs just so you can style it the way you want? Is it just an aberration of your CMS as it loops through and creates content? Can we clean it up?\n\nIf you have no idea how to really write the front end you will have to clue how to fix any of this. This is the crux of my point.\n\nLearn the fundamentals. Write it all from scratch at least once. Once you can do that, use an abstraction if you must and extend it gracefully. If you are asked for a new feature on the front-end do not look for a library first if you can help it. Do not rely on someone else's abstraction. Write it yourself, write it well, and you will have a long career of fixing problems and creating great solutions.\n\nOn more thing... this is not a once and done sort of thing. All of life is a cycle so you will need to go back and do it all again in a few years... but hey, if you didn't want to learn, you'd be doing something else.",
+            "html": "<h1 id=\"wehaveaproblem\">We have a problem</h1>\n\n<p>This post is a rant. I think we have a problem. This post is aimed at the time-strapped developer who is pushing through, trying to support a family. It's hard and you do what you have to for survival.</p>\n\n<h3 id=\"abstractions\">Abstractions</h3>\n\n<p>As a rule, abstractions are great. I really love them and use them in my own work whenever possible. I'll paraphrase here but an abstraction is when you take a bit of code and give it a name that makes sense. It's like going to the store. In order to the store, you go outside, open the car door, get in the car, drive to the store ... etc. So there are a number of steps and depending on how you decide to organize it you might just abstract all of those steps into on big step. You'll just say go to the store...  </p>\n\n<pre><code>function goToStore() {  \n  ... things we to go to the store.\n};\n</code></pre>\n\n<p>This pattern can be really helpful  when giving a new developer a 30,000 ft. view of your code. It is also really helpful when someone wants to extend the functionality of your application.</p>\n\n<p>We love abstractions.</p>\n\n<h3 id=\"abstractionsgonewrong\">Abstractions gone wrong</h3>\n\n<p>Here is how an abstraction becomes and obstruction: What happens when you have learned the abstraction but only the abstraction? What happens when the abstraction is so full of its own conventions and challenges that you are only learning how to work the abstraction? </p>\n\n<p>For example: You can conceivably learn how to create a lot of interesting functionality in WordPress but not actually have a clue how to set up an API, do a SQL call, or really program at all. I'm saying you could have been creating websites for years and have no real clue how to actually make a website outside of your CMS.</p>\n\n<p>In fact, it's pretty amazing how much you can do without knowing what you're doing at all. You just take the code and hack at it until it does what you want.</p>\n\n<h3 id=\"tyrannyoftheurgent\">Tyranny of the Urgent</h3>\n\n<p>So we now, I hope, see the problem. For survival in the industry you are forced to puke out websites quickly. It looks good... mostly. People pat you on the back. It seems like success. You know there are bugs but you leave the ugliest issues in your codebase to be fixed by someone else and move on.</p>\n\n<p>However, you leave a wake of hacked and barely maintainable websites behind. As soon as your particular flavor of development is no longer in vogue, you have to start from scratch or just quit.</p>\n\n<p>Stephen Covey in his book \"The Seven Habits of Highly Effective People\" talks about something he calls the tyranny of the urgent. The idea is that we tend to put out fires rather than invest in what will make tomorrow best. Each time we ignore tomorrow's concerns, we guarantee that we will be franticly running around fixing problems as they happen.</p>\n\n<h3 id=\"itjustisntasgood\">It just isn't as good</h3>\n\n<p>So here's the other underlying problem of huge swaths of pre-packaged functionality. They are all made so you can do whatever you want. You have fifty options so that you can do one thing. You however are doing only one thing and are now wasting 49 solutions.</p>\n\n<p>Have you ever looked at the head tag of a WordPress site and wondered what all that crap was for? I mean seriously, it's essentially a static page with barely anything going on but you have 15 .js files and 10 css files loaded. Why not 2 or 3 (or maybe one) of each?</p>\n\n<p>How about the gajillion lines of js that comes with bootstrap? Are you actually using all that code?</p>\n\n<p>What's with all of this HTML on your page? Do you have divs in divs in divs just so you can style it the way you want? Is it just an aberration of your CMS as it loops through and creates content? Can we clean it up?</p>\n\n<p>If you have no idea how to really write the front end you will have to clue how to fix any of this. This is the crux of my point.</p>\n\n<p>Learn the fundamentals. Write it all from scratch at least once. Once you can do that, use an abstraction if you must and extend it gracefully. If you are asked for a new feature on the front-end do not look for a library first if you can help it. Do not rely on someone else's abstraction. Write it yourself, write it well, and you will have a long career of fixing problems and creating great solutions.</p>\n\n<p>On more thing... this is not a once and done sort of thing. All of life is a cycle so you will need to go back and do it all again in a few years... but hey, if you didn't want to learn, you'd be doing something else.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1455981922350,
+            "created_by": 1,
+            "updated_at": 1457028338569,
+            "updated_by": 1,
+            "published_at": 1457028338574,
+            "published_by": 1
+          },
+          {
+            "id": 9,
+            "uuid": "8e454ed8-1ee2-4d72-8ac5-98662725c2c4",
+            "title": "Gulp Blew Ulp",
+            "slug": "gulp-blew-ulp",
+            "markdown": "#Oh Ship!\n*That's what you **yell** when gulp stops working...  kinda*\n\nOk, so your build broke. What now?\n\n####Did you run npm install?\nWhen your stereo doesn't turn on, the first thing you wanna check is if it's plugged in. For all intents and purposes, gulp *runs* on its local dependencies. When you type npm install it will look for a file called ```package.json```.\n\nInside that file you'll see something like this\n\n```\n{\n  \"name\": \"banner\",\n  \"version\": \"0.0.0\",\n  \"bannerSize\": \"728x90\",\n  \"description\": \"An HTML banner\",\n  \"main\": \"index.html\",\n  \"keywords\": [\n    \"banner\",\n    \"html\"\n  ],\n  \"devDependencies\": {\n    \"del\": \"^1.2.0\",\n    \"gulp\": \"^3.9.0\",\n    \"gulp-connect\": \"^2.2.0\",\n    \"gulp-filesize\": \"0.0.6\",\n    \"gulp-header\": \"^1.2.2\",\n    \"gulp-minify-html\": \"^1.0.4\",\n    \"gulp-minify-inline\": \"^0.1.1\",\n    \"gulp-open\": \"^1.0.0\",\n    \"gulp-rename\": \"^1.2.2\",\n    \"gulp-sass\": \"^2.0.4\",\n    \"gulp-uglify\": \"^1.2.0\",\n    \"gulp-util\": \"^3.0.6\",\n    \"gulp-watch\": \"^4.3.4\",\n    \"gulp-zip\": \"^3.0.2\",\n    \"run-sequence\": \"^1.1.2\"\n  },\n  \"dependencies\": {}\n}\n\n```\nYou can do **A LOT** with npm but at it's core, and what you need to know is that when you type ```npm install```, it will go through all of the properties of devDependencies and dependencies and install them by their package name. You'll also notice to the right that there's a version number like so: ```\"gulp-sass\": \"^2.0.4\"```. So it's looking for a dependency name gulp-sass and the version starts with 2.0.4. If it said ```^2.0``` then it would give you any version of gulp sass that starts with 2.0.  \n\nfor example: 2.1.0, 2.2.1, 2.3.0... and so on.\n\nOnce you run ```npm install``` all of the dependencies will be downloaded into a folder called **node_modules** and node will look there first for any dependencies it needs to run. \n\n*NOTE: If node can't find what it's looking for in your project's node_modules folder, there is also a global node_modules folder normally found in /user/bin/.*\n\n####How Tasks work\nIt's important to have at least a general idea of how a gulp task works in order to be able to fix or alter it to your needs.\n\nGulp is a task runner so when you write a gulp build you create a series of tasks that get run in a certain order. So you'll say\n\ngulp please do these things:\n\n* find all my images and copy them into the destination folder\n* convert all my sass files into css and copy them too\n* find all my javascript files and look for errors\n* combine all my js files into one big fat file\n* watch for changes and then do it all again \n* (maybe even refresh your browser for you)\n\nHere's how you set it up... and it's pretty easy. Just head over to [npmjs.com](https://www.npmjs.com/) and choose a task you wanna setup. Let's just look at the [gulp-sass](https://www.npmjs.com/package/gulp-sass) module as sass compilation seems to be a common thing we use gulp for. They actually give you the task and how to use it.\n\n```\n'use strict';\n \nvar gulp = require('gulp');\nvar sass = require('gulp-sass');\n \ngulp.task('sass', function () {\n  return gulp.src('./sass/**/*.scss')\n    .pipe(sass().on('error', sass.logError))\n    .pipe(gulp.dest('./css'));\n});\n \ngulp.task('sass:watch', function () {\n  gulp.watch('./sass/**/*.scss', ['sass']);\n});\n```\nAt the top of the file we have two declarations.\n```\nvar gulp = require('gulp');\nvar sass = require('gulp-sass');\n```\nThe basically tell node to look for some resources called gulp and gulp-sass. If you leave this out... KABOOM. Nothing works.\n\nNext we do the most basic setup and tell gulp we have a task and give it a name. It's just a function really. Pretty simple.\n```\ngulp.task('sass', function () { //do something });\n```\nSo now when we run ``gulp sass`` gulp will look inside the \"sass\" folder and all it's subfolders for any files ending in .scss and put all the results in a folder called \"css\".\n\nIf you then run ``gulp sass:watch`` (the second task) gulp will do something else cool. Gulp has a cool feature called ``watch`` and it's basically an event listener. We're saying to gulp, watch everything in the sass folder and its subfolders. If a file is changed in any way, run the sass task.\n\nSo you may ask, how is it that we can just run ``gulp`` without an argument. All you have to do is setup a default task and give that task a few other tasks to run. You can do that like this\n```\ngulp.task('default', ['sass', 'sass:watch']);\n```\nNow the default task will run both of the other tasks in sequence. If you're interested, that little array I added are tasks that should run BEFORE the default task. There's no declared callback for this task so it just runs those tasks we've declared and that's it.\n\n####Live Reloading\nThe most common package we use for this is browsersync. If you wanna know more about it you can checkout [browsersync](https://www.browsersync.io/)'s website where they have a bunch of recipes to brew up your own or check out my blog post on it [here](http://timhookerdesign.com/and-then-it-hit-me/).\n####Installing Packages\n\nYou may notice the npm install command runs into errors from time to time. There are a lot of different reasons why this might occur but you could try reinstalling the plugin. Since we'll need this later for a specific issue we've run into I'll run you through it. \n\nGo ahead and checkout [npmjs.com](https://www.npmjs.com/) and just look for the package you want to install. Once you find it you'll want to not only install it to your **node_modules** folder but also into you **package.json** file as a dependency.\n\nLocal/Project Install:\nThere are two common sorts of modules we can add: dependencies and your dev dependencies. Dev dependencies are just the ones we need for developing a website and the other sort are for production environments. Since we're using gulp, it's almost certain that all we'll need are dev dependencies.\n\n*for dev install like this:* ```npm install -save-dev <package_name>```\n\nIf you want to install for a live project like an express server, just use -save\n\nGlobal Install:\nThis can be helpful if you just want to install node-sass or gulp and don't want to bother with a package.json file with all the crazy node_module business. \n\ninstall like this ```npm install -g <package_name>```\n\n####SASS BLEW UP\n\nYour errors will range from a nasty message in the console accompanied by sass not compiling to a completely empty folder where your css, js, and html files should be.\n\nTake a look at your error output and that will lead you.\n\nEXAMPLE 1:\n```\n/node_modules/node-sass/lib/index.js:22\n    throw new Error('`libsass` bindings not found. Try reinstalling `node-sass`?');\n    ^\n```\n\nIf you have a gulp, grunt, or really any node-sass build from early 2015 or before you may be able to install gulp but end up with errors. The problem is that there was a big move away from compiling sass with ruby to using lib-sass instead. If all of that is jibber-jabber to you, just understand that the new way is faster but doesn't play nice with compass or older sass builds. \n\nWhat you need to know here is that node-sass isn't used directly by gulp. What you need is the latest version of gulp-sass which USES node-sass. \n\n1. Go into your package.json file and delete the entire line with gulp-sass in it (ex. ```\"gulp-sass\": \"^1.0.0\",```). \n2. Just to be safe, I would delete your node_modules folder entirely by typing in the terminal: ```rm -rf node_modules```. \n3. Install the latest gulp-sass ```npm install --save-dev gulp-sass``` \n4. install the rest of our friends with ```npm install```.\n\nEXAMPLE 2: \n```\nError in plugin 'sass'\nMessage:\n    dev/style.scss\nError: Undefined variable: \"$badVariable\".\n        on line 60 of stdin\n>>     color: $badVariable;\n   -----------^\n```\nThis is an easy one to fix but if you don't check your terminal you will be really confused. Sass was nice enough to tell us that in our style.scss file on line 60, you have a mistake in your sass. Here, we've referenced a variable that hasn't been defined. Fix your sass by either including the file where that variable is defined, by defining the variable, or by removing that line.\n\nEXAMPLE 3:\n```\n2 errors\n{ [Error: ../skin/frontend/themename/src/scss/_framework.scss\nError: File to import not found or unreadable: compass-libsass/compass\";\n```\nThis one is easy as well but this is specific to a dependency we've been using. We're missing a file in the compass-libsass folder that because of git issues has not downloaded and SASS can't find it. This is a patch so we can use libsass to compile our compass build for what turns out to be a Magento site. The files can be found at https://github.com/Igosuki/compass-mixins or on npm. Modify the _framework.scss file to point to the right file and expose the compass mixins.\n\n####Error: listen EADDRINUSE\n```\nevents.js:141\n      throw er; // Unhandled 'error' event\n      ^\n\nError: listen EADDRINUSE :::8889\n```\nThis is such a common error I thought I'd mention it directly. You have two gulp builds running both trying to use the same port. Shut one down or change the port it's trying to use. \n\nex. change localhost:8000 to localhost:3000\n\n####A FEW OTHER GOTCHAS\nSo you've gone through everything above and maybe you're getting strange errors saying something odd about compass plugins or a ruby version not being present. We used to use Ruby for a lot of source compiling instead of node. You will probably see less of this going forward but expect it inside of certain php builds that use compass such as older versions of the Omega Theme for Drupal.\n\nLook for a file called ```Gemfile```. This is a lot like our package.json file but you'll need to use [Bundler](http://bundler.io/) to fix it. If you don't have bundler you can install it with ```gem install bundler```. To install all the gems navigate into the same directory as the Gemfile and type ```bundle install```.\n\nIf you get an error saying the correct version of ruby isn't present then this may be a little harder to fix. Either in the ```Gemfile``` itself or in a file named one of the following ```ruby-version```, ```.rvmrc```, or  ```.versions.conf```. I use [homebrew](http://brew.sh/) and [rbenv](http://rbenv.org/) to keep up with all of the versions. Here's a nice tutorial on it that should still work but just do the steps before the git setup: https://gorails.com/setup/osx/10.11-el-capitan\n\n####In Closing\nOn many teams I would be considered a junior engineer based on my experience level. If you find this helpful, great! If not, let me know how I can improve! Thanks!",
+            "html": "<h1 id=\"ohship\">Oh Ship!</h1>\n\n<p><em>That's what you <strong>yell</strong> when gulp stops working...  kinda</em></p>\n\n<p>Ok, so your build broke. What now?</p>\n\n<h4 id=\"didyourunnpminstall\">Did you run npm install?</h4>\n\n<p>When your stereo doesn't turn on, the first thing you wanna check is if it's plugged in. For all intents and purposes, gulp <em>runs</em> on its local dependencies. When you type npm install it will look for a file called <code>package.json</code>.</p>\n\n<p>Inside that file you'll see something like this</p>\n\n<pre><code>{\n  \"name\": \"banner\",\n  \"version\": \"0.0.0\",\n  \"bannerSize\": \"728x90\",\n  \"description\": \"An HTML banner\",\n  \"main\": \"index.html\",\n  \"keywords\": [\n    \"banner\",\n    \"html\"\n  ],\n  \"devDependencies\": {\n    \"del\": \"^1.2.0\",\n    \"gulp\": \"^3.9.0\",\n    \"gulp-connect\": \"^2.2.0\",\n    \"gulp-filesize\": \"0.0.6\",\n    \"gulp-header\": \"^1.2.2\",\n    \"gulp-minify-html\": \"^1.0.4\",\n    \"gulp-minify-inline\": \"^0.1.1\",\n    \"gulp-open\": \"^1.0.0\",\n    \"gulp-rename\": \"^1.2.2\",\n    \"gulp-sass\": \"^2.0.4\",\n    \"gulp-uglify\": \"^1.2.0\",\n    \"gulp-util\": \"^3.0.6\",\n    \"gulp-watch\": \"^4.3.4\",\n    \"gulp-zip\": \"^3.0.2\",\n    \"run-sequence\": \"^1.1.2\"\n  },\n  \"dependencies\": {}\n}\n</code></pre>\n\n<p>You can do <strong>A LOT</strong> with npm but at it's core, and what you need to know is that when you type <code>npm install</code>, it will go through all of the properties of devDependencies and dependencies and install them by their package name. You'll also notice to the right that there's a version number like so: <code>\"gulp-sass\": \"^2.0.4\"</code>. So it's looking for a dependency name gulp-sass and the version starts with 2.0.4. If it said <code>^2.0</code> then it would give you any version of gulp sass that starts with 2.0.  </p>\n\n<p>for example: 2.1.0, 2.2.1, 2.3.0... and so on.</p>\n\n<p>Once you run <code>npm install</code> all of the dependencies will be downloaded into a folder called <strong>node_modules</strong> and node will look there first for any dependencies it needs to run. </p>\n\n<p><em>NOTE: If node can't find what it's looking for in your project's node_modules folder, there is also a global node_modules folder normally found in /user/bin/.</em></p>\n\n<h4 id=\"howtaskswork\">How Tasks work</h4>\n\n<p>It's important to have at least a general idea of how a gulp task works in order to be able to fix or alter it to your needs.</p>\n\n<p>Gulp is a task runner so when you write a gulp build you create a series of tasks that get run in a certain order. So you'll say</p>\n\n<p>gulp please do these things:</p>\n\n<ul>\n<li>find all my images and copy them into the destination folder</li>\n<li>convert all my sass files into css and copy them too</li>\n<li>find all my javascript files and look for errors</li>\n<li>combine all my js files into one big fat file</li>\n<li>watch for changes and then do it all again </li>\n<li>(maybe even refresh your browser for you)</li>\n</ul>\n\n<p>Here's how you set it up... and it's pretty easy. Just head over to <a href=\"https://www.npmjs.com/\">npmjs.com</a> and choose a task you wanna setup. Let's just look at the <a href=\"https://www.npmjs.com/package/gulp-sass\">gulp-sass</a> module as sass compilation seems to be a common thing we use gulp for. They actually give you the task and how to use it.</p>\n\n<pre><code>'use strict';\n\nvar gulp = require('gulp');  \nvar sass = require('gulp-sass');\n\ngulp.task('sass', function () {  \n  return gulp.src('./sass/**/*.scss')\n    .pipe(sass().on('error', sass.logError))\n    .pipe(gulp.dest('./css'));\n});\n\ngulp.task('sass:watch', function () {  \n  gulp.watch('./sass/**/*.scss', ['sass']);\n});\n</code></pre>\n\n<p>At the top of the file we have two declarations.  </p>\n\n<pre><code>var gulp = require('gulp');  \nvar sass = require('gulp-sass');  \n</code></pre>\n\n<p>The basically tell node to look for some resources called gulp and gulp-sass. If you leave this out... KABOOM. Nothing works.</p>\n\n<p>Next we do the most basic setup and tell gulp we have a task and give it a name. It's just a function really. Pretty simple.  </p>\n\n<pre><code>gulp.task('sass', function () { //do something });  \n</code></pre>\n\n<p>So now when we run <code>gulp sass</code> gulp will look inside the \"sass\" folder and all it's subfolders for any files ending in .scss and put all the results in a folder called \"css\".</p>\n\n<p>If you then run <code>gulp sass:watch</code> (the second task) gulp will do something else cool. Gulp has a cool feature called <code>watch</code> and it's basically an event listener. We're saying to gulp, watch everything in the sass folder and its subfolders. If a file is changed in any way, run the sass task.</p>\n\n<p>So you may ask, how is it that we can just run <code>gulp</code> without an argument. All you have to do is setup a default task and give that task a few other tasks to run. You can do that like this  </p>\n\n<pre><code>gulp.task('default', ['sass', 'sass:watch']);  \n</code></pre>\n\n<p>Now the default task will run both of the other tasks in sequence. If you're interested, that little array I added are tasks that should run BEFORE the default task. There's no declared callback for this task so it just runs those tasks we've declared and that's it.</p>\n\n<h4 id=\"livereloading\">Live Reloading</h4>\n\n<p>The most common package we use for this is browsersync. If you wanna know more about it you can checkout <a href=\"https://www.browsersync.io/\">browsersync</a>'s website where they have a bunch of recipes to brew up your own or check out my blog post on it <a href=\"http://timhookerdesign.com/and-then-it-hit-me/\">here</a>.  </p>\n\n<h4 id=\"installingpackages\">Installing Packages</h4>\n\n<p>You may notice the npm install command runs into errors from time to time. There are a lot of different reasons why this might occur but you could try reinstalling the plugin. Since we'll need this later for a specific issue we've run into I'll run you through it. </p>\n\n<p>Go ahead and checkout <a href=\"https://www.npmjs.com/\">npmjs.com</a> and just look for the package you want to install. Once you find it you'll want to not only install it to your <strong>node_modules</strong> folder but also into you <strong>package.json</strong> file as a dependency.</p>\n\n<p>Local/Project Install: <br />\nThere are two common sorts of modules we can add: dependencies and your dev dependencies. Dev dependencies are just the ones we need for developing a website and the other sort are for production environments. Since we're using gulp, it's almost certain that all we'll need are dev dependencies.</p>\n\n<p><em>for dev install like this:</em> <code>npm install -save-dev &lt;package_name&gt;</code></p>\n\n<p>If you want to install for a live project like an express server, just use -save</p>\n\n<p>Global Install: <br />\nThis can be helpful if you just want to install node-sass or gulp and don't want to bother with a package.json file with all the crazy node_module business. </p>\n\n<p>install like this <code>npm install -g &lt;package_name&gt;</code></p>\n\n<h4 id=\"sassblewup\">SASS BLEW UP</h4>\n\n<p>Your errors will range from a nasty message in the console accompanied by sass not compiling to a completely empty folder where your css, js, and html files should be.</p>\n\n<p>Take a look at your error output and that will lead you.</p>\n\n<p>EXAMPLE 1:  </p>\n\n<pre><code>/node_modules/node-sass/lib/index.js:22\n    throw new Error('`libsass` bindings not found. Try reinstalling `node-sass`?');\n    ^\n</code></pre>\n\n<p>If you have a gulp, grunt, or really any node-sass build from early 2015 or before you may be able to install gulp but end up with errors. The problem is that there was a big move away from compiling sass with ruby to using lib-sass instead. If all of that is jibber-jabber to you, just understand that the new way is faster but doesn't play nice with compass or older sass builds. </p>\n\n<p>What you need to know here is that node-sass isn't used directly by gulp. What you need is the latest version of gulp-sass which USES node-sass. </p>\n\n<ol>\n<li>Go into your package.json file and delete the entire line with gulp-sass in it (ex. <code>\"gulp-sass\": \"^1.0.0\",</code>).  </li>\n<li>Just to be safe, I would delete your node_modules folder entirely by typing in the terminal: <code>rm -rf node_modules</code>.  </li>\n<li>Install the latest gulp-sass <code>npm install --save-dev gulp-sass</code>  </li>\n<li>install the rest of our friends with <code>npm install</code>.</li>\n</ol>\n\n<p>EXAMPLE 2:  </p>\n\n<pre><code>Error in plugin 'sass'  \nMessage:  \n    dev/style.scss\nError: Undefined variable: \"$badVariable\".  \n        on line 60 of stdin\n&gt;&gt;     color: $badVariable;\n   -----------^\n</code></pre>\n\n<p>This is an easy one to fix but if you don't check your terminal you will be really confused. Sass was nice enough to tell us that in our style.scss file on line 60, you have a mistake in your sass. Here, we've referenced a variable that hasn't been defined. Fix your sass by either including the file where that variable is defined, by defining the variable, or by removing that line.</p>\n\n<p>EXAMPLE 3:  </p>\n\n<pre><code>2 errors  \n{ [Error: ../skin/frontend/themename/src/scss/_framework.scss\nError: File to import not found or unreadable: compass-libsass/compass\";  \n</code></pre>\n\n<p>This one is easy as well but this is specific to a dependency we've been using. We're missing a file in the compass-libsass folder that because of git issues has not downloaded and SASS can't find it. This is a patch so we can use libsass to compile our compass build for what turns out to be a Magento site. The files can be found at <a href=\"https://github.com/Igosuki/compass-mixins\">https://github.com/Igosuki/compass-mixins</a> or on npm. Modify the _framework.scss file to point to the right file and expose the compass mixins.</p>\n\n<h4 id=\"errorlisteneaddrinuse\">Error: listen EADDRINUSE</h4>\n\n<pre><code>events.js:141  \n      throw er; // Unhandled 'error' event\n      ^\n\nError: listen EADDRINUSE :::8889  \n</code></pre>\n\n<p>This is such a common error I thought I'd mention it directly. You have two gulp builds running both trying to use the same port. Shut one down or change the port it's trying to use. </p>\n\n<p>ex. change localhost:8000 to localhost:3000</p>\n\n<h4 id=\"afewothergotchas\">A FEW OTHER GOTCHAS</h4>\n\n<p>So you've gone through everything above and maybe you're getting strange errors saying something odd about compass plugins or a ruby version not being present. We used to use Ruby for a lot of source compiling instead of node. You will probably see less of this going forward but expect it inside of certain php builds that use compass such as older versions of the Omega Theme for Drupal.</p>\n\n<p>Look for a file called <code>Gemfile</code>. This is a lot like our package.json file but you'll need to use <a href=\"http://bundler.io/\">Bundler</a> to fix it. If you don't have bundler you can install it with <code>gem install bundler</code>. To install all the gems navigate into the same directory as the Gemfile and type <code>bundle install</code>.</p>\n\n<p>If you get an error saying the correct version of ruby isn't present then this may be a little harder to fix. Either in the <code>Gemfile</code> itself or in a file named one of the following <code>ruby-version</code>, <code>.rvmrc</code>, or  <code>.versions.conf</code>. I use <a href=\"http://brew.sh/\">homebrew</a> and <a href=\"http://rbenv.org/\">rbenv</a> to keep up with all of the versions. Here's a nice tutorial on it that should still work but just do the steps before the git setup: <a href=\"https://gorails.com/setup/osx/10.11-el-capitan\">https://gorails.com/setup/osx/10.11-el-capitan</a></p>\n\n<h4 id=\"inclosing\">In Closing</h4>\n\n<p>On many teams I would be considered a junior engineer based on my experience level. If you find this helpful, great! If not, let me know how I can improve! Thanks!</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1459253620472,
+            "created_by": 1,
+            "updated_at": 1496154715446,
+            "updated_by": 1,
+            "published_at": 1459371706240,
+            "published_by": 1
+          },
+          {
+            "id": 10,
+            "uuid": "9ffdc82a-66de-461b-a726-b94e34620371",
+            "title": "A new post",
+            "slug": "a-new-post",
+            "markdown": "I really like this post, I'm super duper proud of it.\n\nActually, not really.\n\nI need to write some posts but I NEVER EVER DO.\n\nI really should do a better job\n\n\nhow much better\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njust so much better I mean really really much much better\n\n\n\n\n\n\n\nOK?? I mean for realz",
+            "html": "<p>I really like this post, I'm super duper proud of it.</p>\n\n<p>Actually, not really.</p>\n\n<p>I need to write some posts but I NEVER EVER DO.</p>\n\n<p>I really should do a better job</p>\n\n<p>how much better</p>\n\n<p>just so much better I mean really really much much better</p>\n\n<p>OK?? I mean for realz</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1479245212727,
+            "created_by": 1,
+            "updated_at": 1514993240476,
+            "updated_by": 1,
+            "published_at": null,
+            "published_by": null
+          },
+          {
+            "id": 11,
+            "uuid": "2ecd5582-5745-495e-add4-b901d2975d6d",
+            "title": "(Untitled)",
+            "slug": "untitled",
+            "markdown": "#A title\n##another title\n###another title\n####another\n\n",
+            "html": "<h1 id=\"atitle\">A title</h1>\n\n<h2 id=\"anothertitle\">another title</h2>\n\n<h3 id=\"anothertitle\">another title</h3>\n\n<h4 id=\"another\">another</h4>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1497642041007,
+            "created_by": 1,
+            "updated_at": 1497642076991,
+            "updated_by": 1,
+            "published_at": null,
+            "published_by": null
+          },
+          {
+            "id": 12,
+            "uuid": "a539808c-239c-4864-9fda-97248a8d9c1e",
+            "title": "Searching isn't easy",
+            "slug": "why-its-so-hard-to-get-a-job",
+            "markdown": "Will you indulge me while I get something off my chest? \n\nRecently the company I work for decided to end active development on its main application and thus, laid off developers. So I'm on the job hunt and in the last two years, the landscape seems to have entirely changed.\n\nTwo years ago when I was looking for a job, you normally needed:\n1. Practice and familiarity with a defined set problems\n2. A sample of code you have written\n3. A tailored resumé\n4. Interviewing skills\n\nI was asked for a few additional items as well such as a weekend-long challenge of responding to mock user issues and fixing broken code.\n\nHere is a list of things I or others have been asked to have prepared for a job:\n1. Take home code challenges. These can take days. Roughly 10 hours of unpaid work for each (I've done 4).\n2. Completed projects I can share.\n3. Language tests comprised of esoteric features not widely used requiring study (2 hours for each test + 2-4 hours of prep).\n4. Code challenges on proprietary sites like CodeFights.com\n5. Resume tailored to the job\n6. Personal website or blog\n7. Minimum 2 interviews and normally 3\n\nAt the end of this process, the employer owes you nothing and will often give you zero feedback. Occasionally they won't even tell you they aren't interested.\n\nMy suggestion to potential employers. \n1. Go with whatever the most common code challenge is that you see other employers doing. \n2. Be willing to take prewritten code.\n3. Only have second interviews with a small set of applicants\n4. Give useful feedback.\n5. Thank them for their time.\n\nThis process has been challenging and frustrating at times. It's a season and I get that but I hope the insanity of our current job market can be improved. OK. Rant ended.",
+            "html": "<p>Will you indulge me while I get something off my chest? </p>\n\n<p>Recently the company I work for decided to end active development on its main application and thus, laid off developers. So I'm on the job hunt and in the last two years, the landscape seems to have entirely changed.</p>\n\n<p>Two years ago when I was looking for a job, you normally needed: <br />\n1. Practice and familiarity with a defined set problems <br />\n2. A sample of code you have written <br />\n3. A tailored resumé <br />\n4. Interviewing skills</p>\n\n<p>I was asked for a few additional items as well such as a weekend-long challenge of responding to mock user issues and fixing broken code.</p>\n\n<p>Here is a list of things I or others have been asked to have prepared for a job: <br />\n1. Take home code challenges. These can take days. Roughly 10 hours of unpaid work for each (I've done 4). <br />\n2. Completed projects I can share. <br />\n3. Language tests comprised of esoteric features not widely used requiring study (2 hours for each test + 2-4 hours of prep). <br />\n4. Code challenges on proprietary sites like CodeFights.com <br />\n5. Resume tailored to the job <br />\n6. Personal website or blog <br />\n7. Minimum 2 interviews and normally 3</p>\n\n<p>At the end of this process, the employer owes you nothing and will often give you zero feedback. Occasionally they won't even tell you they aren't interested.</p>\n\n<p>My suggestion to potential employers. <br />\n1. Go with whatever the most common code challenge is that you see other employers doing. <br />\n2. Be willing to take prewritten code. <br />\n3. Only have second interviews with a small set of applicants <br />\n4. Give useful feedback. <br />\n5. Thank them for their time.</p>\n\n<p>This process has been challenging and frustrating at times. It's a season and I get that but I hope the insanity of our current job market can be improved. OK. Rant ended.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1514993286550,
+            "created_by": 1,
+            "updated_at": 1514996496302,
+            "updated_by": 1,
+            "published_at": 1514995725182,
+            "published_by": 1
+          },
+          {
+            "id": 13,
+            "uuid": "112919d9-d1b7-4927-a30b-5845ccf796e6",
+            "title": "Something I'm thankful for",
+            "slug": "something-im-thankful-for",
+            "markdown": "In my previous post I spoke briefly about the challenge of getting a new job and the many code challenges. Gratitude though, that's a game changer.\n\nHere's what I have really appreciated about this process. \n\nIn an embedded team you tend to get a bit siloed in your development roles. It makes total sense because deploys, database optimization, asset delivery, front-end frameworks, back-end frameworks... well they are so domain specific that it's much easier to just hand off to the person who wrote that code.\n\nAs a result, I spend quite a bit of time writing javascript, designing UI, writing UI, and fretting about asset delivery. \n\nThat isn't all I did and certainly I spent time writing Rails code, database queries, development tools, and had many other opportunities to learn. I digress...\n\nIn the last 6 weeks, I've been asked to write a number of end-to-end applications in various frameworks and languages. I had come up with my own solutions for provisioning ruby and python environments, connecting flask to mongo, writing docker docker-compose and nanobox, setting up webpack to serve up React and Vue, SPA's, database migrations... and the list goes on.\n\nI've done all of these things in the past but doing them all at once with a tight timeframe has been quite the challenge. Learning is a pleasure and it's something I'm thankful for.",
+            "html": "<p>In my previous post I spoke briefly about the challenge of getting a new job and the many code challenges. Gratitude though, that's a game changer.</p>\n\n<p>Here's what I have really appreciated about this process. </p>\n\n<p>In an embedded team you tend to get a bit siloed in your development roles. It makes total sense because deploys, database optimization, asset delivery, front-end frameworks, back-end frameworks... well they are so domain specific that it's much easier to just hand off to the person who wrote that code.</p>\n\n<p>As a result, I spend quite a bit of time writing javascript, designing UI, writing UI, and fretting about asset delivery. </p>\n\n<p>That isn't all I did and certainly I spent time writing Rails code, database queries, development tools, and had many other opportunities to learn. I digress...</p>\n\n<p>In the last 6 weeks, I've been asked to write a number of end-to-end applications in various frameworks and languages. I had come up with my own solutions for provisioning ruby and python environments, connecting flask to mongo, writing docker docker-compose and nanobox, setting up webpack to serve up React and Vue, SPA's, database migrations... and the list goes on.</p>\n\n<p>I've done all of these things in the past but doing them all at once with a tight timeframe has been quite the challenge. Learning is a pleasure and it's something I'm thankful for.</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": 1514995739661,
+            "created_by": 1,
+            "updated_at": 1515007308860,
+            "updated_by": 1,
+            "published_at": 1514996419815,
+            "published_by": 1
+          }
+        ],
+        "users": [],
+        "roles": [
+          {
+            "id": 1,
+            "uuid": "236f7be2-d26e-4dff-93d2-e4630e67238a",
+            "name": "Administrator",
+            "description": "Administrators",
+            "created_at": 1451664727173,
+            "created_by": 1,
+            "updated_at": 1451664727173,
+            "updated_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "ab9b8508-4543-472d-9dbf-1a13d7d8985d",
+            "name": "Editor",
+            "description": "Editors",
+            "created_at": 1451664727173,
+            "created_by": 1,
+            "updated_at": 1451664727173,
+            "updated_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "fd4b91cc-17f5-4da6-8ca1-dd1f6d72a54c",
+            "name": "Author",
+            "description": "Authors",
+            "created_at": 1451664727173,
+            "created_by": 1,
+            "updated_at": 1451664727173,
+            "updated_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "b299aa15-8e6a-42e0-b1ea-91a0f428f7e1",
+            "name": "Owner",
+            "description": "Blog Owner",
+            "created_at": 1451664727174,
+            "created_by": 1,
+            "updated_at": 1451664727174,
+            "updated_by": 1
+          }
+        ],
+        "roles_users": [
+          {
+            "id": 1,
+            "role_id": 4,
+            "user_id": 1
+          }
+        ],
+        "permissions": [
+          {
+            "id": 1,
+            "uuid": "a3948031-c917-4866-8a25-2e1cc5f818cc",
+            "name": "Export database",
+            "object_type": "db",
+            "action_type": "exportContent",
+            "object_id": null,
+            "created_at": 1451664727327,
+            "created_by": 1,
+            "updated_at": 1451664727327,
+            "updated_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "d5ed104a-b1e8-466b-8286-f4b4d5e84996",
+            "name": "Import database",
+            "object_type": "db",
+            "action_type": "importContent",
+            "object_id": null,
+            "created_at": 1451664727337,
+            "created_by": 1,
+            "updated_at": 1451664727337,
+            "updated_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "619b26bb-20ce-4cf7-86e2-64a77cd71b89",
+            "name": "Delete all content",
+            "object_type": "db",
+            "action_type": "deleteAllContent",
+            "object_id": null,
+            "created_at": 1451664727340,
+            "created_by": 1,
+            "updated_at": 1451664727340,
+            "updated_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "c8a1a779-9654-4a15-896c-e4b728dee061",
+            "name": "Send mail",
+            "object_type": "mail",
+            "action_type": "send",
+            "object_id": null,
+            "created_at": 1451664727350,
+            "created_by": 1,
+            "updated_at": 1451664727350,
+            "updated_by": 1
+          },
+          {
+            "id": 5,
+            "uuid": "c5dbd780-1e71-4f41-87c1-64cdee75efaa",
+            "name": "Browse notifications",
+            "object_type": "notification",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727359,
+            "created_by": 1,
+            "updated_at": 1451664727359,
+            "updated_by": 1
+          },
+          {
+            "id": 6,
+            "uuid": "a5ab3305-3379-415c-bec6-fcd64ca8d961",
+            "name": "Add notifications",
+            "object_type": "notification",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": 1451664727369,
+            "created_by": 1,
+            "updated_at": 1451664727369,
+            "updated_by": 1
+          },
+          {
+            "id": 7,
+            "uuid": "4837639c-788b-455f-a7d3-4c2debf3eb58",
+            "name": "Delete notifications",
+            "object_type": "notification",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": 1451664727372,
+            "created_by": 1,
+            "updated_at": 1451664727372,
+            "updated_by": 1
+          },
+          {
+            "id": 8,
+            "uuid": "a3b27083-737e-4632-b0f1-9de4c4826037",
+            "name": "Browse posts",
+            "object_type": "post",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727381,
+            "created_by": 1,
+            "updated_at": 1451664727381,
+            "updated_by": 1
+          },
+          {
+            "id": 9,
+            "uuid": "de6a254a-d2fe-4209-aae0-024d383b5fa5",
+            "name": "Read posts",
+            "object_type": "post",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": 1451664727388,
+            "created_by": 1,
+            "updated_at": 1451664727388,
+            "updated_by": 1
+          },
+          {
+            "id": 10,
+            "uuid": "9048011e-78e4-4d57-a65e-179e777e1250",
+            "name": "Edit posts",
+            "object_type": "post",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": 1451664727391,
+            "created_by": 1,
+            "updated_at": 1451664727391,
+            "updated_by": 1
+          },
+          {
+            "id": 11,
+            "uuid": "eb033a7f-ba12-439c-8050-6a05100fba7a",
+            "name": "Add posts",
+            "object_type": "post",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": 1451664727396,
+            "created_by": 1,
+            "updated_at": 1451664727396,
+            "updated_by": 1
+          },
+          {
+            "id": 12,
+            "uuid": "f95a6999-a068-41c2-b11c-e26cdea9b9ca",
+            "name": "Delete posts",
+            "object_type": "post",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": 1451664727401,
+            "created_by": 1,
+            "updated_at": 1451664727401,
+            "updated_by": 1
+          },
+          {
+            "id": 13,
+            "uuid": "619c72cf-9b13-4186-8a92-00e6e9df12f9",
+            "name": "Browse settings",
+            "object_type": "setting",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727412,
+            "created_by": 1,
+            "updated_at": 1451664727412,
+            "updated_by": 1
+          },
+          {
+            "id": 14,
+            "uuid": "5e390231-dde5-42df-81b8-97d5138a564e",
+            "name": "Read settings",
+            "object_type": "setting",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": 1451664727420,
+            "created_by": 1,
+            "updated_at": 1451664727420,
+            "updated_by": 1
+          },
+          {
+            "id": 15,
+            "uuid": "97b9b767-d25c-4fb0-939a-baaae7646468",
+            "name": "Edit settings",
+            "object_type": "setting",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": 1451664727426,
+            "created_by": 1,
+            "updated_at": 1451664727426,
+            "updated_by": 1
+          },
+          {
+            "id": 16,
+            "uuid": "15aaf061-88cb-48d1-b95a-c155b1b8a9d8",
+            "name": "Generate slugs",
+            "object_type": "slug",
+            "action_type": "generate",
+            "object_id": null,
+            "created_at": 1451664727432,
+            "created_by": 1,
+            "updated_at": 1451664727432,
+            "updated_by": 1
+          },
+          {
+            "id": 17,
+            "uuid": "c6833566-65d4-41a4-8237-cc436276e116",
+            "name": "Browse tags",
+            "object_type": "tag",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727434,
+            "created_by": 1,
+            "updated_at": 1451664727434,
+            "updated_by": 1
+          },
+          {
+            "id": 18,
+            "uuid": "a6cd556d-ddfb-413e-a611-e2412a2b642c",
+            "name": "Read tags",
+            "object_type": "tag",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": 1451664727437,
+            "created_by": 1,
+            "updated_at": 1451664727437,
+            "updated_by": 1
+          },
+          {
+            "id": 19,
+            "uuid": "2f5e187d-a029-465c-8147-fe87a41598fc",
+            "name": "Edit tags",
+            "object_type": "tag",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": 1451664727444,
+            "created_by": 1,
+            "updated_at": 1451664727444,
+            "updated_by": 1
+          },
+          {
+            "id": 20,
+            "uuid": "be48b93e-23c2-4cce-a379-89e91ee7cf07",
+            "name": "Add tags",
+            "object_type": "tag",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": 1451664727448,
+            "created_by": 1,
+            "updated_at": 1451664727448,
+            "updated_by": 1
+          },
+          {
+            "id": 21,
+            "uuid": "c7ef3235-feca-4289-b0a9-3e7e72f18158",
+            "name": "Delete tags",
+            "object_type": "tag",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": 1451664727452,
+            "created_by": 1,
+            "updated_at": 1451664727452,
+            "updated_by": 1
+          },
+          {
+            "id": 22,
+            "uuid": "56872970-796a-477f-b907-fda43191ea35",
+            "name": "Browse themes",
+            "object_type": "theme",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727454,
+            "created_by": 1,
+            "updated_at": 1451664727454,
+            "updated_by": 1
+          },
+          {
+            "id": 23,
+            "uuid": "9821f053-3f99-45bf-8a5d-5d904c6ec5aa",
+            "name": "Edit themes",
+            "object_type": "theme",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": 1451664727460,
+            "created_by": 1,
+            "updated_at": 1451664727460,
+            "updated_by": 1
+          },
+          {
+            "id": 24,
+            "uuid": "14325d66-6c08-4198-8c50-b7b92cceb500",
+            "name": "Browse users",
+            "object_type": "user",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727464,
+            "created_by": 1,
+            "updated_at": 1451664727464,
+            "updated_by": 1
+          },
+          {
+            "id": 25,
+            "uuid": "7b7ddefe-c01b-4537-89a8-24e6d83fc2ca",
+            "name": "Read users",
+            "object_type": "user",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": 1451664727466,
+            "created_by": 1,
+            "updated_at": 1451664727466,
+            "updated_by": 1
+          },
+          {
+            "id": 26,
+            "uuid": "aa0eac6a-bec7-4015-b3d5-f98e9792f58a",
+            "name": "Edit users",
+            "object_type": "user",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": 1451664727472,
+            "created_by": 1,
+            "updated_at": 1451664727472,
+            "updated_by": 1
+          },
+          {
+            "id": 27,
+            "uuid": "33889bda-9cdf-4476-90c3-3c4373ce796c",
+            "name": "Add users",
+            "object_type": "user",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": 1451664727475,
+            "created_by": 1,
+            "updated_at": 1451664727475,
+            "updated_by": 1
+          },
+          {
+            "id": 28,
+            "uuid": "a0cb7dc4-15f9-4db9-ba6c-a47e8caa8475",
+            "name": "Delete users",
+            "object_type": "user",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": 1451664727480,
+            "created_by": 1,
+            "updated_at": 1451664727480,
+            "updated_by": 1
+          },
+          {
+            "id": 29,
+            "uuid": "9df08fb9-9960-46f5-bc36-20f25a4f5d0d",
+            "name": "Assign a role",
+            "object_type": "role",
+            "action_type": "assign",
+            "object_id": null,
+            "created_at": 1451664727483,
+            "created_by": 1,
+            "updated_at": 1451664727483,
+            "updated_by": 1
+          },
+          {
+            "id": 30,
+            "uuid": "a64a936e-d92a-47b8-9dcd-cd541089f0b0",
+            "name": "Browse roles",
+            "object_type": "role",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": 1451664727485,
+            "created_by": 1,
+            "updated_at": 1451664727485,
+            "updated_by": 1
+          }
+        ],
+        "permissions_users": [],
+        "permissions_roles": [
+          {
+            "id": 1,
+            "role_id": 1,
+            "permission_id": 1
+          },
+          {
+            "id": 2,
+            "role_id": 1,
+            "permission_id": 2
+          },
+          {
+            "id": 3,
+            "role_id": 1,
+            "permission_id": 3
+          },
+          {
+            "id": 4,
+            "role_id": 1,
+            "permission_id": 4
+          },
+          {
+            "id": 5,
+            "role_id": 1,
+            "permission_id": 5
+          },
+          {
+            "id": 6,
+            "role_id": 1,
+            "permission_id": 6
+          },
+          {
+            "id": 7,
+            "role_id": 1,
+            "permission_id": 7
+          },
+          {
+            "id": 8,
+            "role_id": 1,
+            "permission_id": 8
+          },
+          {
+            "id": 9,
+            "role_id": 1,
+            "permission_id": 9
+          },
+          {
+            "id": 10,
+            "role_id": 1,
+            "permission_id": 10
+          },
+          {
+            "id": 11,
+            "role_id": 1,
+            "permission_id": 11
+          },
+          {
+            "id": 12,
+            "role_id": 1,
+            "permission_id": 12
+          },
+          {
+            "id": 13,
+            "role_id": 1,
+            "permission_id": 13
+          },
+          {
+            "id": 14,
+            "role_id": 1,
+            "permission_id": 14
+          },
+          {
+            "id": 15,
+            "role_id": 1,
+            "permission_id": 15
+          },
+          {
+            "id": 16,
+            "role_id": 1,
+            "permission_id": 16
+          },
+          {
+            "id": 17,
+            "role_id": 1,
+            "permission_id": 17
+          },
+          {
+            "id": 18,
+            "role_id": 1,
+            "permission_id": 18
+          },
+          {
+            "id": 19,
+            "role_id": 1,
+            "permission_id": 19
+          },
+          {
+            "id": 20,
+            "role_id": 1,
+            "permission_id": 20
+          },
+          {
+            "id": 21,
+            "role_id": 1,
+            "permission_id": 21
+          },
+          {
+            "id": 22,
+            "role_id": 1,
+            "permission_id": 22
+          },
+          {
+            "id": 23,
+            "role_id": 1,
+            "permission_id": 23
+          },
+          {
+            "id": 24,
+            "role_id": 1,
+            "permission_id": 24
+          },
+          {
+            "id": 25,
+            "role_id": 1,
+            "permission_id": 25
+          },
+          {
+            "id": 26,
+            "role_id": 1,
+            "permission_id": 26
+          },
+          {
+            "id": 27,
+            "role_id": 1,
+            "permission_id": 27
+          },
+          {
+            "id": 28,
+            "role_id": 1,
+            "permission_id": 28
+          },
+          {
+            "id": 29,
+            "role_id": 1,
+            "permission_id": 29
+          },
+          {
+            "id": 30,
+            "role_id": 1,
+            "permission_id": 30
+          },
+          {
+            "id": 31,
+            "role_id": 2,
+            "permission_id": 8
+          },
+          {
+            "id": 32,
+            "role_id": 2,
+            "permission_id": 9
+          },
+          {
+            "id": 33,
+            "role_id": 2,
+            "permission_id": 10
+          },
+          {
+            "id": 34,
+            "role_id": 2,
+            "permission_id": 11
+          },
+          {
+            "id": 35,
+            "role_id": 2,
+            "permission_id": 12
+          },
+          {
+            "id": 36,
+            "role_id": 2,
+            "permission_id": 13
+          },
+          {
+            "id": 37,
+            "role_id": 2,
+            "permission_id": 14
+          },
+          {
+            "id": 38,
+            "role_id": 2,
+            "permission_id": 16
+          },
+          {
+            "id": 39,
+            "role_id": 2,
+            "permission_id": 17
+          },
+          {
+            "id": 40,
+            "role_id": 2,
+            "permission_id": 18
+          },
+          {
+            "id": 41,
+            "role_id": 2,
+            "permission_id": 19
+          },
+          {
+            "id": 42,
+            "role_id": 2,
+            "permission_id": 20
+          },
+          {
+            "id": 43,
+            "role_id": 2,
+            "permission_id": 21
+          },
+          {
+            "id": 44,
+            "role_id": 2,
+            "permission_id": 24
+          },
+          {
+            "id": 45,
+            "role_id": 2,
+            "permission_id": 25
+          },
+          {
+            "id": 46,
+            "role_id": 2,
+            "permission_id": 26
+          },
+          {
+            "id": 47,
+            "role_id": 2,
+            "permission_id": 27
+          },
+          {
+            "id": 48,
+            "role_id": 2,
+            "permission_id": 28
+          },
+          {
+            "id": 49,
+            "role_id": 2,
+            "permission_id": 29
+          },
+          {
+            "id": 50,
+            "role_id": 2,
+            "permission_id": 30
+          },
+          {
+            "id": 51,
+            "role_id": 3,
+            "permission_id": 8
+          },
+          {
+            "id": 52,
+            "role_id": 3,
+            "permission_id": 9
+          },
+          {
+            "id": 53,
+            "role_id": 3,
+            "permission_id": 11
+          },
+          {
+            "id": 54,
+            "role_id": 3,
+            "permission_id": 13
+          },
+          {
+            "id": 55,
+            "role_id": 3,
+            "permission_id": 14
+          },
+          {
+            "id": 56,
+            "role_id": 3,
+            "permission_id": 16
+          },
+          {
+            "id": 57,
+            "role_id": 3,
+            "permission_id": 17
+          },
+          {
+            "id": 58,
+            "role_id": 3,
+            "permission_id": 18
+          },
+          {
+            "id": 59,
+            "role_id": 3,
+            "permission_id": 20
+          },
+          {
+            "id": 60,
+            "role_id": 3,
+            "permission_id": 24
+          },
+          {
+            "id": 61,
+            "role_id": 3,
+            "permission_id": 25
+          },
+          {
+            "id": 62,
+            "role_id": 3,
+            "permission_id": 30
+          }
+        ],
+        "permissions_apps": [],
+        "settings": [
+          {
+            "id": 1,
+            "uuid": "d9cb61ef-5e26-4c81-8c0f-23041136cd7c",
+            "key": "databaseVersion",
+            "value": "004",
+            "type": "core",
+            "created_at": 1451664728238,
+            "created_by": 1,
+            "updated_at": 1451664728238,
+            "updated_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "bec539af-6d19-4302-812d-df18012e99aa",
+            "key": "dbHash",
+            "value": "67a48a25-8382-410a-b894-4238d7ae2e3b",
+            "type": "core",
+            "created_at": 1451664728239,
+            "created_by": 1,
+            "updated_at": 1451664728381,
+            "updated_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "f087952a-63db-4538-89f8-fd82b2616186",
+            "key": "nextUpdateCheck",
+            "value": "1515511045",
+            "type": "core",
+            "created_at": 1451664728239,
+            "created_by": 1,
+            "updated_at": 1515424644989,
+            "updated_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "11beb767-15bc-4abf-945f-b48c0df80ee2",
+            "key": "displayUpdateNotification",
+            "value": "0.11.12",
+            "type": "core",
+            "created_at": 1451664728239,
+            "created_by": 1,
+            "updated_at": 1515424644998,
+            "updated_by": 1
+          },
+          {
+            "id": 5,
+            "uuid": "6343b91c-88df-4f2b-8b54-19a75b75c2ae",
+            "key": "title",
+            "value": "Tim Hooker - Developer",
+            "type": "blog",
+            "created_at": 1451664728239,
+            "created_by": 1,
+            "updated_at": 1515424661590,
+            "updated_by": 1
+          },
+          {
+            "id": 6,
+            "uuid": "28825451-9b24-4c1a-bf7c-485d3dc923cc",
+            "key": "description",
+            "value": "Thoughts, stories and ideas about building the bits of the internet you can see.",
+            "type": "blog",
+            "created_at": 1451664728240,
+            "created_by": 1,
+            "updated_at": 1515424661593,
+            "updated_by": 1
+          },
+          {
+            "id": 7,
+            "uuid": "8720b362-e4b8-4393-9d27-517ff1114403",
+            "key": "logo",
+            "value": "/content/images/2016/01/hooker-front-end-2.svg",
+            "type": "blog",
+            "created_at": 1451664728240,
+            "created_by": 1,
+            "updated_at": 1515424661595,
+            "updated_by": 1
+          },
+          {
+            "id": 8,
+            "uuid": "56023f22-655f-48f1-bef1-fbd1bd3c6b1e",
+            "key": "cover",
+            "value": "/content/images/2016/01/Slide-No-Star.jpg",
+            "type": "blog",
+            "created_at": 1451664728241,
+            "created_by": 1,
+            "updated_at": 1515424661597,
+            "updated_by": 1
+          },
+          {
+            "id": 9,
+            "uuid": "e3c1bf8d-5e58-402a-ad8b-1f030ee6ffdc",
+            "key": "defaultLang",
+            "value": "en_US",
+            "type": "blog",
+            "created_at": 1451664728242,
+            "created_by": 1,
+            "updated_at": 1515424661601,
+            "updated_by": 1
+          },
+          {
+            "id": 10,
+            "uuid": "ac8a6db0-5222-42d9-9c81-25009816c669",
+            "key": "postsPerPage",
+            "value": "5",
+            "type": "blog",
+            "created_at": 1451664728242,
+            "created_by": 1,
+            "updated_at": 1515424661603,
+            "updated_by": 1
+          },
+          {
+            "id": 11,
+            "uuid": "990d1e97-80b0-4d3f-ab6c-49d633f1f81a",
+            "key": "forceI18n",
+            "value": "true",
+            "type": "blog",
+            "created_at": 1451664728242,
+            "created_by": 1,
+            "updated_at": 1515424661605,
+            "updated_by": 1
+          },
+          {
+            "id": 12,
+            "uuid": "efda84a1-16c4-4386-8648-7961938de51c",
+            "key": "permalinks",
+            "value": "/:slug/",
+            "type": "blog",
+            "created_at": 1451664728242,
+            "created_by": 1,
+            "updated_at": 1515424661607,
+            "updated_by": 1
+          },
+          {
+            "id": 13,
+            "uuid": "34ea3723-309f-4533-8dce-b6f1e17b64ae",
+            "key": "ghost_head",
+            "value": "",
+            "type": "blog",
+            "created_at": 1451664728242,
+            "created_by": 1,
+            "updated_at": 1515424661612,
+            "updated_by": 1
+          },
+          {
+            "id": 14,
+            "uuid": "f1d37789-bac3-4ccb-985e-d91301d51f15",
+            "key": "ghost_foot",
+            "value": "",
+            "type": "blog",
+            "created_at": 1451664728243,
+            "created_by": 1,
+            "updated_at": 1515424661614,
+            "updated_by": 1
+          },
+          {
+            "id": 15,
+            "uuid": "e922c892-b9d9-4fc7-9270-7336b3c65e0e",
+            "key": "labs",
+            "value": "{}",
+            "type": "blog",
+            "created_at": 1451664728243,
+            "created_by": 1,
+            "updated_at": 1515424661616,
+            "updated_by": 1
+          },
+          {
+            "id": 16,
+            "uuid": "eb6e5fef-791e-45d8-b3ce-80441b54a3aa",
+            "key": "navigation",
+            "value": "[{\"label\":\"Home\",\"url\":\"/\"},{\"label\":\"Portfolio\",\"url\":\"http://timhooker.github.io\"},{\"label\":\"Github\",\"url\":\"http://github.com/timhooker\"},{\"label\":\"Twitter\",\"url\":\"http://twitter.com/timmyhooker\"},{\"label\":\"About Me\",\"url\":\"/about-me\"},{\"label\":\"Behance\",\"url\":\"http://www.behance.net/timhooker\"}]",
+            "type": "blog",
+            "created_at": 1451664728243,
+            "created_by": 1,
+            "updated_at": 1515424661618,
+            "updated_by": 1
+          },
+          {
+            "id": 17,
+            "uuid": "261a9000-5892-4dbb-9894-9d5425dff07c",
+            "key": "activeApps",
+            "value": "[]",
+            "type": "app",
+            "created_at": 1451664728243,
+            "created_by": 1,
+            "updated_at": 1451664728243,
+            "updated_by": 1
+          },
+          {
+            "id": 18,
+            "uuid": "23aa6766-3bf6-414c-ac8e-5a0ff29ac149",
+            "key": "installedApps",
+            "value": "[]",
+            "type": "app",
+            "created_at": 1451664728243,
+            "created_by": 1,
+            "updated_at": 1508244229289,
+            "updated_by": 1
+          },
+          {
+            "id": 19,
+            "uuid": "75fd277b-641c-4ca9-be73-090d3283603e",
+            "key": "isPrivate",
+            "value": "false",
+            "type": "private",
+            "created_at": 1451664728244,
+            "created_by": 1,
+            "updated_at": 1515424661620,
+            "updated_by": 1
+          },
+          {
+            "id": 20,
+            "uuid": "f030d610-725c-4dd1-9d26-17cd4b4069a3",
+            "key": "password",
+            "value": "null",
+            "type": "private",
+            "created_at": 1451664728244,
+            "created_by": 1,
+            "updated_at": 1515424661622,
+            "updated_by": 1
+          },
+          {
+            "id": 21,
+            "uuid": "6423e2f6-76f3-4d10-9c4f-82b712d6466a",
+            "key": "activeTheme",
+            "value": "casper",
+            "type": "theme",
+            "created_at": 1451664728243,
+            "created_by": 1,
+            "updated_at": 1515424661610,
+            "updated_by": 1
+          }
+        ],
+        "tags": [
+          {
+            "id": 1,
+            "uuid": "88372e0b-c8bf-4c75-9b48-dbca82495a2c",
+            "name": "Getting Started",
+            "slug": "getting-started",
+            "description": null,
+            "image": null,
+            "hidden": 0,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": 1451664727170,
+            "created_by": 1,
+            "updated_at": 1451664727170,
+            "updated_by": 1
+          }
+        ],
+        "posts_tags": [
+          {
+            "id": 1,
+            "post_id": 1,
+            "tag_id": 1,
+            "sort_order": 0
+          }
+        ],
+        "apps": [],
+        "app_settings": [],
+        "app_fields": [],
+        "client_trusted_domains": []
+      }
+    }
+  ]
+}
